@@ -1,0 +1,2038 @@
+2025-09-12 09:07:36 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: cardbin)
+2025-09-12 09:07:36 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.3.2',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.2 5 Aug 2025)',
+ 'cryptography': '45.0.7',
+ 'Platform': 'Windows-11-10.0.26100-SP0'}
+2025-09-12 09:07:36 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-09-12 09:07:36 [scrapy.extensions.telnet] INFO: Telnet Password: c5a1f740646080e0
+2025-09-12 09:07:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.spiderstate.SpiderState',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2025-09-12 09:07:36 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'BOT_NAME': 'cardbin',
+ 'DOWNLOAD_DELAY': 4,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'JOBDIR': './crawl_state0912',
+ 'LOG_FILE': 'cardbin_log20250912.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'cardbin.spiders',
+ 'SPIDER_MODULES': ['cardbin.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+2025-09-12 09:07:37 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-09-12 09:07:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-09-12 09:07:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-09-12 09:07:38 [scrapy.middleware] INFO: Enabled item pipelines:
+['cardbin.pipelines.SqlitePipeline']
+2025-09-12 09:07:38 [scrapy.core.engine] INFO: Spider opened
+2025-09-12 09:07:38 [py.warnings] WARNING: F:\Code\Dependent\python\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: cardbin.spiders.CardbinSpider.CardbinSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-09-12 09:07:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-09-12 09:07:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-09-12 09:07:38 [scrapy-playwright] INFO: Starting download handler
+2025-09-12 09:07:38 [scrapy-playwright] INFO: Starting download handler
+2025-09-12 09:07:38 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/san-marino
+2025-09-12 09:07:38 [scrapy-playwright] INFO: Launching browser chromium
+2025-09-12 09:07:38 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/mozambique
+2025-09-12 09:07:38 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/uzbekistan
+2025-09-12 09:07:38 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/burundi
+2025-09-12 09:07:38 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/estonia
+2025-09-12 09:07:38 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/sri-lanka
+2025-09-12 09:07:38 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/puerto-rico
+2025-09-12 09:07:38 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/mexico
+2025-09-12 09:07:38 [scrapy-playwright] INFO: Browser chromium launched
+2025-09-12 09:07:41 [tldextract.cache] WARNING: unable to cache publicsuffix.org-tlds.{'urls': ('https://publicsuffix.org/list/public_suffix_list.dat', 'https://raw.githubusercontent.com/publicsuffix/list/master/public_suffix_list.dat'), 'fallback_to_snapshot': True} in F:\Code\Dependent\python\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json. This could refresh the Public Suffix List over HTTP every app startup. Construct your `TLDExtract` with a writable `cache_dir` or set `cache_dir=None` to silence this warning. [WinError 5] 拒绝访问。: 'F:\\Code\\Dependent\\python\\Lib\\site-packages\\tldextract\\.suffix_cache'
+2025-09-12 09:07:41 [cardbin] INFO: 正在解析列表页: https://bincheck.org/san-marino
+2025-09-12 09:07:41 [cardbin] WARNING: https://bincheck.org/san-marino 未找到下一页链接
+2025-09-12 09:07:47 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mozambique
+2025-09-12 09:07:47 [cardbin] WARNING: https://bincheck.org/mozambique 未找到下一页链接
+2025-09-12 09:07:50 [cardbin] INFO: 正在解析列表页: https://bincheck.org/uzbekistan
+2025-09-12 09:07:50 [cardbin] WARNING: https://bincheck.org/uzbekistan 未找到下一页链接
+2025-09-12 09:07:54 [cardbin] INFO: 正在解析列表页: https://bincheck.org/burundi
+2025-09-12 09:07:54 [cardbin] WARNING: https://bincheck.org/burundi 未找到下一页链接
+2025-09-12 09:07:58 [cardbin] INFO: 正在解析列表页: https://bincheck.org/estonia
+2025-09-12 09:07:58 [cardbin] WARNING: https://bincheck.org/estonia 未找到下一页链接
+2025-09-12 09:08:03 [cardbin] INFO: 正在解析列表页: https://bincheck.org/sri-lanka
+2025-09-12 09:08:03 [cardbin] INFO: 发现下一页列表: https://bincheck.org/sri-lanka?page=2
+2025-09-12 09:08:06 [cardbin] INFO: 正在解析列表页: https://bincheck.org/puerto-rico
+2025-09-12 09:08:06 [cardbin] INFO: 发现下一页列表: https://bincheck.org/puerto-rico?page=2
+2025-09-12 09:08:11 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico
+2025-09-12 09:08:11 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=2
+2025-09-12 09:08:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/488080
+2025-09-12 09:08:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533989
+2025-09-12 09:08:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/488081
+2025-09-12 09:08:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525742
+2025-09-12 09:08:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/487717
+2025-09-12 09:08:38 [scrapy.extensions.logstats] INFO: Crawled 13 pages (at 13 pages/min), scraped 5 items (at 5 items/min)
+2025-09-12 09:08:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/676581
+2025-09-12 09:08:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428670
+2025-09-12 09:08:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/478703
+2025-09-12 09:08:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417320
+2025-09-12 09:09:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406943
+2025-09-12 09:09:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446954
+2025-09-12 09:09:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409784
+2025-09-12 09:09:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408322
+2025-09-12 09:09:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477548
+2025-09-12 09:09:24 [cardbin] INFO: 正在解析列表页: https://bincheck.org/sri-lanka?page=2
+2025-09-12 09:09:24 [cardbin] INFO: 发现下一页列表: https://bincheck.org/sri-lanka?page=3
+2025-09-12 09:09:30 [cardbin] INFO: 正在解析列表页: https://bincheck.org/puerto-rico?page=2
+2025-09-12 09:09:30 [cardbin] INFO: 发现下一页列表: https://bincheck.org/puerto-rico?page=3
+2025-09-12 09:09:36 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=2
+2025-09-12 09:09:36 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=3
+2025-09-12 09:09:38 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 12 pages/min), scraped 14 items (at 9 items/min)
+2025-09-12 09:09:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402766
+2025-09-12 09:09:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441541
+2025-09-12 09:09:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433114
+2025-09-12 09:09:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433465
+2025-09-12 09:10:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/407561
+2025-09-12 09:10:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441313
+2025-09-12 09:10:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376791
+2025-09-12 09:10:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418926
+2025-09-12 09:10:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/442596
+2025-09-12 09:10:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421009
+2025-09-12 09:10:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441312
+2025-09-12 09:10:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402934
+2025-09-12 09:10:38 [scrapy.extensions.logstats] INFO: Crawled 37 pages (at 12 pages/min), scraped 26 items (at 12 items/min)
+2025-09-12 09:10:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/435759
+2025-09-12 09:10:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406130
+2025-09-12 09:10:50 [cardbin] INFO: 正在解析列表页: https://bincheck.org/sri-lanka?page=3
+2025-09-12 09:10:50 [cardbin] INFO: https://bincheck.org/sri-lanka?page=3 是最后一页，无下一页
+2025-09-12 09:10:56 [cardbin] INFO: 正在解析列表页: https://bincheck.org/puerto-rico?page=3
+2025-09-12 09:10:56 [cardbin] INFO: https://bincheck.org/puerto-rico?page=3 是最后一页，无下一页
+2025-09-12 09:11:02 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=3
+2025-09-12 09:11:02 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=4
+2025-09-12 09:11:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455505
+2025-09-12 09:11:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/452421
+2025-09-12 09:11:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/465495
+2025-09-12 09:11:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455535
+2025-09-12 09:11:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491365
+2025-09-12 09:11:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477213
+2025-09-12 09:11:38 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 12 pages/min), scraped 34 items (at 8 items/min)
+2025-09-12 09:11:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476114
+2025-09-12 09:11:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491259
+2025-09-12 09:11:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491366
+2025-09-12 09:11:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/461159
+2025-09-12 09:11:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491327
+2025-09-12 09:12:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491280
+2025-09-12 09:12:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491369
+2025-09-12 09:12:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/490642
+2025-09-12 09:12:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517661
+2025-09-12 09:12:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531110
+2025-09-12 09:12:28 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=4
+2025-09-12 09:12:28 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=5
+2025-09-12 09:12:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517764
+2025-09-12 09:12:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/523285
+2025-09-12 09:12:38 [scrapy.extensions.logstats] INFO: Crawled 61 pages (at 12 pages/min), scraped 46 items (at 12 items/min)
+2025-09-12 09:12:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518174
+2025-09-12 09:12:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491586
+2025-09-12 09:12:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491584
+2025-09-12 09:12:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517721
+2025-09-12 09:13:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522498
+2025-09-12 09:13:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491418
+2025-09-12 09:13:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493135
+2025-09-12 09:13:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520699
+2025-09-12 09:13:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491398
+2025-09-12 09:13:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/514044
+2025-09-12 09:13:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493158
+2025-09-12 09:13:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491572
+2025-09-12 09:13:38 [scrapy.extensions.logstats] INFO: Crawled 73 pages (at 12 pages/min), scraped 58 items (at 12 items/min)
+2025-09-12 09:13:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526404
+2025-09-12 09:13:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491502
+2025-09-12 09:13:47 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=5
+2025-09-12 09:13:47 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=6
+2025-09-12 09:13:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543691
+2025-09-12 09:13:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542834
+2025-09-12 09:14:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546579
+2025-09-12 09:14:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533987
+2025-09-12 09:14:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540956
+2025-09-12 09:14:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546869
+2025-09-12 09:14:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/537830
+2025-09-12 09:14:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/536240
+2025-09-12 09:14:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542977
+2025-09-12 09:14:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546378
+2025-09-12 09:14:38 [scrapy.extensions.logstats] INFO: Crawled 86 pages (at 13 pages/min), scraped 70 items (at 12 items/min)
+2025-09-12 09:14:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/537033
+2025-09-12 09:14:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547015
+2025-09-12 09:14:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541278
+2025-09-12 09:14:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540267
+2025-09-12 09:14:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546829
+2025-09-12 09:15:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541298
+2025-09-12 09:15:09 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=6
+2025-09-12 09:15:09 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=7
+2025-09-12 09:15:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/553579
+2025-09-12 09:15:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547096
+2025-09-12 09:15:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549880
+2025-09-12 09:15:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547494
+2025-09-12 09:15:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520642
+2025-09-12 09:15:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557909
+2025-09-12 09:15:38 [scrapy.extensions.logstats] INFO: Crawled 99 pages (at 13 pages/min), scraped 82 items (at 12 items/min)
+2025-09-12 09:15:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522794
+2025-09-12 09:15:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557551
+2025-09-12 09:15:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554764
+2025-09-12 09:15:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547488
+2025-09-12 09:15:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547068
+2025-09-12 09:16:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557910
+2025-09-12 09:16:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557920
+2025-09-12 09:16:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520604
+2025-09-12 09:16:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547092
+2025-09-12 09:16:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/558426
+2025-09-12 09:16:28 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=7
+2025-09-12 09:16:28 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=8
+2025-09-12 09:16:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516576
+2025-09-12 09:16:38 [scrapy.extensions.logstats] INFO: Crawled 111 pages (at 12 pages/min), scraped 93 items (at 11 items/min)
+2025-09-12 09:16:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417849
+2025-09-12 09:16:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417968
+2025-09-12 09:16:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457386
+2025-09-12 09:16:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474494
+2025-09-12 09:16:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456050
+2025-09-12 09:17:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522312
+2025-09-12 09:17:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418077
+2025-09-12 09:17:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531298
+2025-09-12 09:17:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418073
+2025-09-12 09:17:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408341
+2025-09-12 09:17:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534381
+2025-09-12 09:17:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451370
+2025-09-12 09:17:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418914
+2025-09-12 09:17:38 [scrapy.extensions.logstats] INFO: Crawled 124 pages (at 13 pages/min), scraped 106 items (at 13 items/min)
+2025-09-12 09:17:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517769
+2025-09-12 09:17:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531444
+2025-09-12 09:17:48 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=8
+2025-09-12 09:17:48 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=9
+2025-09-12 09:17:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376721
+2025-09-12 09:17:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376795
+2025-09-12 09:18:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376718
+2025-09-12 09:18:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402318
+2025-09-12 09:18:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528869
+2025-09-12 09:18:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528888
+2025-09-12 09:18:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546588
+2025-09-12 09:18:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546585
+2025-09-12 09:18:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376720
+2025-09-12 09:18:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451332
+2025-09-12 09:18:38 [scrapy.extensions.logstats] INFO: Crawled 137 pages (at 13 pages/min), scraped 118 items (at 12 items/min)
+2025-09-12 09:18:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410181
+2025-09-12 09:18:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546587
+2025-09-12 09:18:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426514
+2025-09-12 09:18:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456880
+2025-09-12 09:19:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402338
+2025-09-12 09:19:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376782
+2025-09-12 09:19:11 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=9
+2025-09-12 09:19:11 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=10
+2025-09-12 09:19:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376642
+2025-09-12 09:19:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376664
+2025-09-12 09:19:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376702
+2025-09-12 09:19:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370797
+2025-09-12 09:19:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376688
+2025-09-12 09:19:38 [scrapy.extensions.logstats] INFO: Crawled 149 pages (at 12 pages/min), scraped 129 items (at 11 items/min)
+2025-09-12 09:19:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376666
+2025-09-12 09:19:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376595
+2025-09-12 09:19:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376673
+2025-09-12 09:19:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376640
+2025-09-12 09:20:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376700
+2025-09-12 09:20:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517747
+2025-09-12 09:20:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376668
+2025-09-12 09:20:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376685
+2025-09-12 09:20:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376690
+2025-09-12 09:20:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370798
+2025-09-12 09:20:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376567
+2025-09-12 09:20:38 [scrapy.extensions.logstats] INFO: Crawled 160 pages (at 11 pages/min), scraped 140 items (at 11 items/min)
+2025-09-12 09:20:38 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=10
+2025-09-12 09:20:38 [cardbin] INFO: 发现下一页列表: https://bincheck.org/mexico?page=11
+2025-09-12 09:20:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370733
+2025-09-12 09:20:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370783
+2025-09-12 09:20:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370764
+2025-09-12 09:20:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370792
+2025-09-12 09:21:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370760
+2025-09-12 09:21:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430902
+2025-09-12 09:21:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370731
+2025-09-12 09:21:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370791
+2025-09-12 09:21:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370781
+2025-09-12 09:21:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493160
+2025-09-12 09:21:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370713
+2025-09-12 09:21:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370743
+2025-09-12 09:21:38 [scrapy.extensions.logstats] INFO: Crawled 173 pages (at 13 pages/min), scraped 152 items (at 12 items/min)
+2025-09-12 09:21:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455550
+2025-09-12 09:21:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370769
+2025-09-12 09:21:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370745
+2025-09-12 09:21:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370757
+2025-09-12 09:21:59 [cardbin] INFO: 正在解析列表页: https://bincheck.org/mexico?page=11
+2025-09-12 09:21:59 [cardbin] INFO: https://bincheck.org/mexico?page=11 是最后一页，无下一页
+2025-09-12 09:22:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/460068
+2025-09-12 09:22:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455544
+2025-09-12 09:22:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455520
+2025-09-12 09:22:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455533
+2025-09-12 09:22:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455525
+2025-09-12 09:22:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520318
+2025-09-12 09:22:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517795
+2025-09-12 09:22:38 [scrapy.extensions.logstats] INFO: Crawled 185 pages (at 12 pages/min), scraped 163 items (at 11 items/min)
+2025-09-12 09:22:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370799
+2025-09-12 09:22:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376787
+2025-09-12 09:22:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520416
+2025-09-12 09:22:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455516
+2025-09-12 09:22:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522289
+2025-09-12 09:23:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376660
+2025-09-12 09:23:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370771
+2025-09-12 09:23:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376686
+2025-09-12 09:23:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370796
+2025-09-12 09:23:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/413455
+2025-09-12 09:23:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/413475
+2025-09-12 09:23:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454492
+2025-09-12 09:23:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491282
+2025-09-12 09:23:38 [scrapy.extensions.logstats] INFO: Crawled 198 pages (at 13 pages/min), scraped 176 items (at 13 items/min)
+2025-09-12 09:23:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/429505
+2025-09-12 09:23:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370755
+2025-09-12 09:23:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512709
+2025-09-12 09:23:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370736
+2025-09-12 09:24:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455512
+2025-09-12 09:24:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370721
+2025-09-12 09:24:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370777
+2025-09-12 09:24:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455542
+2025-09-12 09:24:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455545
+2025-09-12 09:24:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/429522
+2025-09-12 09:24:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370737
+2025-09-12 09:24:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455518
+2025-09-12 09:24:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370779
+2025-09-12 09:24:38 [scrapy.extensions.logstats] INFO: Crawled 211 pages (at 13 pages/min), scraped 189 items (at 13 items/min)
+2025-09-12 09:24:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455536
+2025-09-12 09:24:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491281
+2025-09-12 09:24:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376708
+2025-09-12 09:24:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455500
+2025-09-12 09:25:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529571
+2025-09-12 09:25:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455546
+2025-09-12 09:25:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370762
+2025-09-12 09:25:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479353
+2025-09-12 09:25:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491089
+2025-09-12 09:25:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404360
+2025-09-12 09:25:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370728
+2025-09-12 09:25:38 [scrapy.extensions.logstats] INFO: Crawled 222 pages (at 11 pages/min), scraped 200 items (at 11 items/min)
+2025-09-12 09:25:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551134
+2025-09-12 09:25:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520502
+2025-09-12 09:25:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539978
+2025-09-12 09:25:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455532
+2025-09-12 09:26:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455504
+2025-09-12 09:26:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376714
+2025-09-12 09:26:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370780
+2025-09-12 09:26:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547157
+2025-09-12 09:26:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455514
+2025-09-12 09:26:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557604
+2025-09-12 09:26:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455531
+2025-09-12 09:26:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455539
+2025-09-12 09:26:38 [scrapy.extensions.logstats] INFO: Crawled 234 pages (at 12 pages/min), scraped 212 items (at 12 items/min)
+2025-09-12 09:26:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520610
+2025-09-12 09:26:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455548
+2025-09-12 09:26:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472323
+2025-09-12 09:26:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526424
+2025-09-12 09:27:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528890
+2025-09-12 09:27:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376643
+2025-09-12 09:27:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551238
+2025-09-12 09:27:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455515
+2025-09-12 09:27:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/523013
+2025-09-12 09:27:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376785
+2025-09-12 09:27:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376586
+2025-09-12 09:27:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376713
+2025-09-12 09:27:38 [scrapy.extensions.logstats] INFO: Crawled 246 pages (at 12 pages/min), scraped 224 items (at 12 items/min)
+2025-09-12 09:27:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/400443
+2025-09-12 09:27:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454747
+2025-09-12 09:27:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491284
+2025-09-12 09:27:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/377652
+2025-09-12 09:28:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376587
+2025-09-12 09:28:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370740
+2025-09-12 09:28:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376796
+2025-09-12 09:28:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/401899
+2025-09-12 09:28:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455530
+2025-09-12 09:28:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455509
+2025-09-12 09:28:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455501
+2025-09-12 09:28:38 [scrapy.extensions.logstats] INFO: Crawled 257 pages (at 11 pages/min), scraped 235 items (at 11 items/min)
+2025-09-12 09:28:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455519
+2025-09-12 09:28:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472303
+2025-09-12 09:28:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455507
+2025-09-12 09:28:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547155
+2025-09-12 09:29:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/444452
+2025-09-12 09:29:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/490176
+2025-09-12 09:29:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376584
+2025-09-12 09:29:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455513
+2025-09-12 09:29:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376675
+2025-09-12 09:29:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455537
+2025-09-12 09:29:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376725
+2025-09-12 09:29:38 [scrapy.extensions.logstats] INFO: Crawled 268 pages (at 11 pages/min), scraped 246 items (at 11 items/min)
+2025-09-12 09:29:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455538
+2025-09-12 09:29:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376716
+2025-09-12 09:29:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451371
+2025-09-12 09:29:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425983
+2025-09-12 09:30:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530686
+2025-09-12 09:30:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370724
+2025-09-12 09:30:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528875
+2025-09-12 09:30:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433125
+2025-09-12 09:30:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455543
+2025-09-12 09:30:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518135
+2025-09-12 09:30:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455220
+2025-09-12 09:30:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/494388
+2025-09-12 09:30:38 [scrapy.extensions.logstats] INFO: Crawled 280 pages (at 12 pages/min), scraped 258 items (at 12 items/min)
+2025-09-12 09:30:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455549
+2025-09-12 09:30:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370765
+2025-09-12 09:30:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/494399
+2025-09-12 09:30:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370705
+2025-09-12 09:31:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370750
+2025-09-12 09:31:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/420713
+2025-09-12 09:31:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370741
+2025-09-12 09:31:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370790
+2025-09-12 09:31:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448767
+2025-09-12 09:31:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370744
+2025-09-12 09:31:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370742
+2025-09-12 09:31:38 [scrapy.extensions.logstats] INFO: Crawled 291 pages (at 11 pages/min), scraped 269 items (at 11 items/min)
+2025-09-12 09:31:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493708
+2025-09-12 09:31:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370732
+2025-09-12 09:31:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370778
+2025-09-12 09:31:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370712
+2025-09-12 09:32:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370746
+2025-09-12 09:32:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370752
+2025-09-12 09:32:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370729
+2025-09-12 09:32:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370738
+2025-09-12 09:32:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370748
+2025-09-12 09:32:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370758
+2025-09-12 09:32:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493173
+2025-09-12 09:32:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370735
+2025-09-12 09:32:38 [scrapy.extensions.logstats] INFO: Crawled 303 pages (at 12 pages/min), scraped 281 items (at 12 items/min)
+2025-09-12 09:32:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370704
+2025-09-12 09:32:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370772
+2025-09-12 09:32:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493162
+2025-09-12 09:32:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370768
+2025-09-12 09:32:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370701
+2025-09-12 09:33:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370718
+2025-09-12 09:33:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370702
+2025-09-12 09:33:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370720
+2025-09-12 09:33:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370767
+2025-09-12 09:33:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370749
+2025-09-12 09:33:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370707
+2025-09-12 09:33:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370730
+2025-09-12 09:33:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370753
+2025-09-12 09:33:38 [scrapy.extensions.logstats] INFO: Crawled 316 pages (at 13 pages/min), scraped 294 items (at 13 items/min)
+2025-09-12 09:33:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370785
+2025-09-12 09:33:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370734
+2025-09-12 09:33:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421316
+2025-09-12 09:33:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370751
+2025-09-12 09:34:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370754
+2025-09-12 09:34:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370715
+2025-09-12 09:34:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370773
+2025-09-12 09:34:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370770
+2025-09-12 09:34:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370775
+2025-09-12 09:34:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472309
+2025-09-12 09:34:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370716
+2025-09-12 09:34:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542010
+2025-09-12 09:34:38 [scrapy.extensions.logstats] INFO: Crawled 328 pages (at 12 pages/min), scraped 306 items (at 12 items/min)
+2025-09-12 09:34:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370789
+2025-09-12 09:34:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370710
+2025-09-12 09:34:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370786
+2025-09-12 09:34:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370706
+2025-09-12 09:34:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370725
+2025-09-12 09:35:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/494398
+2025-09-12 09:35:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370722
+2025-09-12 09:35:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370711
+2025-09-12 09:35:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370776
+2025-09-12 09:35:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370726
+2025-09-12 09:35:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370708
+2025-09-12 09:35:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370717
+2025-09-12 09:35:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370756
+2025-09-12 09:35:38 [scrapy.extensions.logstats] INFO: Crawled 341 pages (at 13 pages/min), scraped 319 items (at 13 items/min)
+2025-09-12 09:35:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370703
+2025-09-12 09:35:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493166
+2025-09-12 09:35:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370739
+2025-09-12 09:35:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370723
+2025-09-12 09:36:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493157
+2025-09-12 09:36:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370727
+2025-09-12 09:36:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493700
+2025-09-12 09:36:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370719
+2025-09-12 09:36:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370747
+2025-09-12 09:36:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370763
+2025-09-12 09:36:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370700
+2025-09-12 09:36:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370787
+2025-09-12 09:36:38 [scrapy.extensions.logstats] INFO: Crawled 353 pages (at 12 pages/min), scraped 331 items (at 12 items/min)
+2025-09-12 09:36:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370714
+2025-09-12 09:36:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370784
+2025-09-12 09:36:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370766
+2025-09-12 09:36:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370709
+2025-09-12 09:36:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370761
+2025-09-12 09:37:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370759
+2025-09-12 09:37:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/420199
+2025-09-12 09:37:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370788
+2025-09-12 09:37:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370774
+2025-09-12 09:37:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/467473
+2025-09-12 09:37:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376657
+2025-09-12 09:37:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376594
+2025-09-12 09:37:38 [scrapy.extensions.logstats] INFO: Crawled 365 pages (at 12 pages/min), scraped 343 items (at 12 items/min)
+2025-09-12 09:37:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376671
+2025-09-12 09:37:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376591
+2025-09-12 09:37:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376705
+2025-09-12 09:37:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376651
+2025-09-12 09:37:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376687
+2025-09-12 09:37:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376581
+2025-09-12 09:38:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376596
+2025-09-12 09:38:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376645
+2025-09-12 09:38:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376661
+2025-09-12 09:38:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376694
+2025-09-12 09:38:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376699
+2025-09-12 09:38:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376680
+2025-09-12 09:38:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370795
+2025-09-12 09:38:38 [scrapy.extensions.logstats] INFO: Crawled 378 pages (at 13 pages/min), scraped 356 items (at 13 items/min)
+2025-09-12 09:38:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376644
+2025-09-12 09:38:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376583
+2025-09-12 09:38:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/400605
+2025-09-12 09:38:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376654
+2025-09-12 09:39:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376684
+2025-09-12 09:39:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376582
+2025-09-12 09:39:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376576
+2025-09-12 09:39:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376563
+2025-09-12 09:39:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376593
+2025-09-12 09:39:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376590
+2025-09-12 09:39:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370793
+2025-09-12 09:39:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376598
+2025-09-12 09:39:38 [scrapy.extensions.logstats] INFO: Crawled 390 pages (at 12 pages/min), scraped 368 items (at 12 items/min)
+2025-09-12 09:39:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376701
+2025-09-12 09:39:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376682
+2025-09-12 09:39:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376561
+2025-09-12 09:39:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376568
+2025-09-12 09:40:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376565
+2025-09-12 09:40:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376669
+2025-09-12 09:40:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376698
+2025-09-12 09:40:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376580
+2025-09-12 09:40:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376649
+2025-09-12 09:40:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376679
+2025-09-12 09:40:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376564
+2025-09-12 09:40:38 [scrapy.extensions.logstats] INFO: Crawled 401 pages (at 11 pages/min), scraped 379 items (at 11 items/min)
+2025-09-12 09:40:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376672
+2025-09-12 09:40:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376599
+2025-09-12 09:40:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376650
+2025-09-12 09:40:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376662
+2025-09-12 09:40:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376670
+2025-09-12 09:41:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376577
+2025-09-12 09:41:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376678
+2025-09-12 09:41:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376573
+2025-09-12 09:41:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376571
+2025-09-12 09:41:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376697
+2025-09-12 09:41:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376677
+2025-09-12 09:41:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376569
+2025-09-12 09:41:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376575
+2025-09-12 09:41:38 [scrapy.extensions.logstats] INFO: Crawled 414 pages (at 13 pages/min), scraped 392 items (at 13 items/min)
+2025-09-12 09:41:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376560
+2025-09-12 09:41:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376696
+2025-09-12 09:41:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376588
+2025-09-12 09:41:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376574
+2025-09-12 09:41:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376592
+2025-09-12 09:42:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376578
+2025-09-12 09:42:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376695
+2025-09-12 09:42:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376681
+2025-09-12 09:42:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376691
+2025-09-12 09:42:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370794
+2025-09-12 09:42:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376667
+2025-09-12 09:42:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376704
+2025-09-12 09:42:38 [scrapy.extensions.logstats] INFO: Crawled 426 pages (at 12 pages/min), scraped 404 items (at 12 items/min)
+2025-09-12 09:42:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376665
+2025-09-12 09:42:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376579
+2025-09-12 09:42:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376683
+2025-09-12 09:42:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376674
+2025-09-12 09:42:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376641
+2025-09-12 09:43:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376646
+2025-09-12 09:43:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376647
+2025-09-12 09:43:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376693
+2025-09-12 09:43:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376692
+2025-09-12 09:43:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376570
+2025-09-12 09:43:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376676
+2025-09-12 09:43:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376566
+2025-09-12 09:43:38 [scrapy.extensions.logstats] INFO: Crawled 438 pages (at 12 pages/min), scraped 416 items (at 12 items/min)
+2025-09-12 09:43:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376562
+2025-09-12 09:43:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376589
+2025-09-12 09:43:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376648
+2025-09-12 09:43:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376597
+2025-09-12 09:43:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376689
+2025-09-12 09:44:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376572
+2025-09-12 09:44:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376585
+2025-09-12 09:44:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376703
+2025-09-12 09:44:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376663
+2025-09-12 09:44:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376727
+2025-09-12 09:44:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529017
+2025-09-12 09:44:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544652
+2025-09-12 09:44:38 [scrapy.extensions.logstats] INFO: Crawled 451 pages (at 13 pages/min), scraped 428 items (at 12 items/min)
+2025-09-12 09:44:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479438
+2025-09-12 09:44:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546583
+2025-09-12 09:44:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376706
+2025-09-12 09:44:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/435768
+2025-09-12 09:44:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376794
+2025-09-12 09:45:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/377653
+2025-09-12 09:45:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546578
+2025-09-12 09:45:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/400819
+2025-09-12 09:45:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479461
+2025-09-12 09:45:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546576
+2025-09-12 09:45:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546581
+2025-09-12 09:45:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376797
+2025-09-12 09:45:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544549
+2025-09-12 09:45:38 [scrapy.extensions.logstats] INFO: Crawled 463 pages (at 12 pages/min), scraped 441 items (at 13 items/min)
+2025-09-12 09:45:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402687
+2025-09-12 09:45:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376726
+2025-09-12 09:45:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546574
+2025-09-12 09:45:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545039
+2025-09-12 09:46:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528838
+2025-09-12 09:46:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416689
+2025-09-12 09:46:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450933
+2025-09-12 09:46:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376710
+2025-09-12 09:46:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/435769
+2025-09-12 09:46:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545087
+2025-09-12 09:46:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376798
+2025-09-12 09:46:38 [scrapy.extensions.logstats] INFO: Crawled 474 pages (at 11 pages/min), scraped 452 items (at 11 items/min)
+2025-09-12 09:46:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545307
+2025-09-12 09:46:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425981
+2025-09-12 09:46:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376799
+2025-09-12 09:46:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451333
+2025-09-12 09:46:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376712
+2025-09-12 09:47:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520213
+2025-09-12 09:47:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517844
+2025-09-12 09:47:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/442192
+2025-09-12 09:47:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376709
+2025-09-12 09:47:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433454
+2025-09-12 09:47:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528853
+2025-09-12 09:47:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450589
+2025-09-12 09:47:38 [scrapy.extensions.logstats] INFO: Crawled 486 pages (at 12 pages/min), scraped 464 items (at 12 items/min)
+2025-09-12 09:47:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528877
+2025-09-12 09:47:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376786
+2025-09-12 09:47:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376790
+2025-09-12 09:47:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376719
+2025-09-12 09:48:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376723
+2025-09-12 09:48:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376729
+2025-09-12 09:48:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451312
+2025-09-12 09:48:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/377664
+2025-09-12 09:48:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402145
+2025-09-12 09:48:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528885
+2025-09-12 09:48:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/400820
+2025-09-12 09:48:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404748
+2025-09-12 09:48:38 [scrapy.extensions.logstats] INFO: Crawled 498 pages (at 12 pages/min), scraped 476 items (at 12 items/min)
+2025-09-12 09:48:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376784
+2025-09-12 09:48:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376715
+2025-09-12 09:48:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547156
+2025-09-12 09:48:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376722
+2025-09-12 09:49:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451334
+2025-09-12 09:49:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544550
+2025-09-12 09:49:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402029
+2025-09-12 09:49:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450437
+2025-09-12 09:49:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528862
+2025-09-12 09:49:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376783
+2025-09-12 09:49:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/377654
+2025-09-12 09:49:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376789
+2025-09-12 09:49:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/449187
+2025-09-12 09:49:38 [scrapy.extensions.logstats] INFO: Crawled 511 pages (at 13 pages/min), scraped 489 items (at 13 items/min)
+2025-09-12 09:49:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451335
+2025-09-12 09:49:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/413098
+2025-09-12 09:49:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529023
+2025-09-12 09:49:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376728
+2025-09-12 09:50:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376707
+2025-09-12 09:50:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376788
+2025-09-12 09:50:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/400818
+2025-09-12 09:50:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376793
+2025-09-12 09:50:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376711
+2025-09-12 09:50:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415327
+2025-09-12 09:50:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376717
+2025-09-12 09:50:38 [scrapy.extensions.logstats] INFO: Crawled 522 pages (at 11 pages/min), scraped 500 items (at 11 items/min)
+2025-09-12 09:50:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528870
+2025-09-12 09:50:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528866
+2025-09-12 09:50:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529506
+2025-09-12 09:50:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/498462
+2025-09-12 09:50:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546584
+2025-09-12 09:50:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528881
+2025-09-12 09:51:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376724
+2025-09-12 09:51:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376792
+2025-09-12 09:51:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546586
+2025-09-12 09:51:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/412432
+2025-09-12 09:51:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428575
+2025-09-12 09:51:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418080
+2025-09-12 09:51:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534548
+2025-09-12 09:51:38 [scrapy.extensions.logstats] INFO: Crawled 535 pages (at 13 pages/min), scraped 513 items (at 13 items/min)
+2025-09-12 09:51:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531294
+2025-09-12 09:51:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543797
+2025-09-12 09:51:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409852
+2025-09-12 09:51:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549920
+2025-09-12 09:51:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530113
+2025-09-12 09:52:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469849
+2025-09-12 09:52:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464597
+2025-09-12 09:52:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451298
+2025-09-12 09:52:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481283
+2025-09-12 09:52:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481284
+2025-09-12 09:52:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/445017
+2025-09-12 09:52:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446118
+2025-09-12 09:52:38 [scrapy.extensions.logstats] INFO: Crawled 547 pages (at 12 pages/min), scraped 525 items (at 12 items/min)
+2025-09-12 09:52:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/427295
+2025-09-12 09:52:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/537030
+2025-09-12 09:52:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451444
+2025-09-12 09:52:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491271
+2025-09-12 09:52:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410180
+2025-09-12 09:53:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457476
+2025-09-12 09:53:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517775
+2025-09-12 09:53:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436401
+2025-09-12 09:53:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481282
+2025-09-12 09:53:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426807
+2025-09-12 09:53:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426012
+2025-09-12 09:53:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533609
+2025-09-12 09:53:38 [scrapy.extensions.logstats] INFO: Crawled 559 pages (at 12 pages/min), scraped 537 items (at 12 items/min)
+2025-09-12 09:53:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/407304
+2025-09-12 09:53:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/480790
+2025-09-12 09:53:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417967
+2025-09-12 09:53:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418090
+2025-09-12 09:53:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477210
+2025-09-12 09:54:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528897
+2025-09-12 09:54:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405689
+2025-09-12 09:54:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491702
+2025-09-12 09:54:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/471239
+2025-09-12 09:54:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543221
+2025-09-12 09:54:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/413131
+2025-09-12 09:54:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409365
+2025-09-12 09:54:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464596
+2025-09-12 09:54:38 [scrapy.extensions.logstats] INFO: Crawled 572 pages (at 13 pages/min), scraped 550 items (at 13 items/min)
+2025-09-12 09:54:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428574
+2025-09-12 09:54:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451352
+2025-09-12 09:54:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405306
+2025-09-12 09:54:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518853
+2025-09-12 09:55:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446116
+2025-09-12 09:55:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/465829
+2025-09-12 09:55:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518899
+2025-09-12 09:55:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450929
+2025-09-12 09:55:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418093
+2025-09-12 09:55:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418076
+2025-09-12 09:55:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403506
+2025-09-12 09:55:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418927
+2025-09-12 09:55:38 [scrapy.extensions.logstats] INFO: Crawled 584 pages (at 12 pages/min), scraped 562 items (at 12 items/min)
+2025-09-12 09:55:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545325
+2025-09-12 09:55:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446565
+2025-09-12 09:55:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422671
+2025-09-12 09:55:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/467508
+2025-09-12 09:55:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454463
+2025-09-12 09:56:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406447
+2025-09-12 09:56:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404380
+2025-09-12 09:56:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/498589
+2025-09-12 09:56:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410080
+2025-09-12 09:56:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534550
+2025-09-12 09:56:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530756
+2025-09-12 09:56:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481281
+2025-09-12 09:56:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551244
+2025-09-12 09:56:38 [scrapy.extensions.logstats] INFO: Crawled 597 pages (at 13 pages/min), scraped 575 items (at 13 items/min)
+2025-09-12 09:56:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529081
+2025-09-12 09:56:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/492144
+2025-09-12 09:56:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421364
+2025-09-12 09:56:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/432049
+2025-09-12 09:57:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409851
+2025-09-12 09:57:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418925
+2025-09-12 09:57:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551240
+2025-09-12 09:57:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405930
+2025-09-12 09:57:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/413153
+2025-09-12 09:57:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476588
+2025-09-12 09:57:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517765
+2025-09-12 09:57:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/445016
+2025-09-12 09:57:38 [scrapy.extensions.logstats] INFO: Crawled 609 pages (at 12 pages/min), scraped 587 items (at 12 items/min)
+2025-09-12 09:57:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481279
+2025-09-12 09:57:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426808
+2025-09-12 09:57:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550081
+2025-09-12 09:57:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481273
+2025-09-12 09:57:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403856
+2025-09-12 09:58:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522174
+2025-09-12 09:58:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/553396
+2025-09-12 09:58:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/558322
+2025-09-12 09:58:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554629
+2025-09-12 09:58:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559209
+2025-09-12 09:58:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/555924
+2025-09-12 09:58:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547088
+2025-09-12 09:58:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539975
+2025-09-12 09:58:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549631
+2025-09-12 09:58:38 [scrapy.extensions.logstats] INFO: Crawled 623 pages (at 14 pages/min), scraped 601 items (at 14 items/min)
+2025-09-12 09:58:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547492
+2025-09-12 09:58:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557905
+2025-09-12 09:58:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520620
+2025-09-12 09:58:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512745
+2025-09-12 09:59:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552263
+2025-09-12 09:59:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547097
+2025-09-12 09:59:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/558306
+2025-09-12 09:59:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547736
+2025-09-12 09:59:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540051
+2025-09-12 09:59:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547112
+2025-09-12 09:59:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550454
+2025-09-12 09:59:38 [scrapy.extensions.logstats] INFO: Crawled 634 pages (at 11 pages/min), scraped 612 items (at 11 items/min)
+2025-09-12 09:59:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547075
+2025-09-12 09:59:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547078
+2025-09-12 09:59:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547103
+2025-09-12 09:59:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547050
+2025-09-12 09:59:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512795
+2025-09-12 10:00:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526400
+2025-09-12 10:00:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547941
+2025-09-12 10:00:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557924
+2025-09-12 10:00:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557908
+2025-09-12 10:00:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554625
+2025-09-12 10:00:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547074
+2025-09-12 10:00:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550962
+2025-09-12 10:00:38 [scrapy.extensions.logstats] INFO: Crawled 646 pages (at 12 pages/min), scraped 624 items (at 12 items/min)
+2025-09-12 10:00:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549639
+2025-09-12 10:00:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550233
+2025-09-12 10:00:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547407
+2025-09-12 10:00:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547106
+2025-09-12 10:00:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557922
+2025-09-12 10:01:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547079
+2025-09-12 10:01:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/553467
+2025-09-12 10:01:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547093
+2025-09-12 10:01:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554691
+2025-09-12 10:01:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/553253
+2025-09-12 10:01:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549138
+2025-09-12 10:01:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526949
+2025-09-12 10:01:38 [scrapy.extensions.logstats] INFO: Crawled 658 pages (at 12 pages/min), scraped 636 items (at 12 items/min)
+2025-09-12 10:01:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554492
+2025-09-12 10:01:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539944
+2025-09-12 10:01:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547066
+2025-09-12 10:01:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547095
+2025-09-12 10:01:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520660
+2025-09-12 10:02:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547086
+2025-09-12 10:02:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512809
+2025-09-12 10:02:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547080
+2025-09-12 10:02:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548236
+2025-09-12 10:02:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522339
+2025-09-12 10:02:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547484
+2025-09-12 10:02:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526489
+2025-09-12 10:02:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526953
+2025-09-12 10:02:38 [scrapy.extensions.logstats] INFO: Crawled 671 pages (at 13 pages/min), scraped 649 items (at 13 items/min)
+2025-09-12 10:02:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554900
+2025-09-12 10:02:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551276
+2025-09-12 10:02:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554628
+2025-09-12 10:02:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/511761
+2025-09-12 10:02:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520499
+2025-09-12 10:03:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554964
+2025-09-12 10:03:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547370
+2025-09-12 10:03:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551077
+2025-09-12 10:03:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547146
+2025-09-12 10:03:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549611
+2025-09-12 10:03:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520606
+2025-09-12 10:03:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547514
+2025-09-12 10:03:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/558784
+2025-09-12 10:03:38 [scrapy.extensions.logstats] INFO: Crawled 684 pages (at 13 pages/min), scraped 662 items (at 13 items/min)
+2025-09-12 10:03:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557874
+2025-09-12 10:03:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547380
+2025-09-12 10:03:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551720
+2025-09-12 10:03:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551081
+2025-09-12 10:03:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/551253
+2025-09-12 10:04:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557907
+2025-09-12 10:04:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547751
+2025-09-12 10:04:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552488
+2025-09-12 10:04:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/553448
+2025-09-12 10:04:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548234
+2025-09-12 10:04:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547406
+2025-09-12 10:04:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547077
+2025-09-12 10:04:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557561
+2025-09-12 10:04:38 [scrapy.extensions.logstats] INFO: Crawled 697 pages (at 13 pages/min), scraped 675 items (at 13 items/min)
+2025-09-12 10:04:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550569
+2025-09-12 10:04:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520622
+2025-09-12 10:04:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529028
+2025-09-12 10:04:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528876
+2025-09-12 10:05:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539946
+2025-09-12 10:05:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541221
+2025-09-12 10:05:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543499
+2025-09-12 10:05:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539672
+2025-09-12 10:05:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546872
+2025-09-12 10:05:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/538984
+2025-09-12 10:05:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541297
+2025-09-12 10:05:38 [scrapy.extensions.logstats] INFO: Crawled 708 pages (at 11 pages/min), scraped 686 items (at 11 items/min)
+2025-09-12 10:05:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529093
+2025-09-12 10:05:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546804
+2025-09-12 10:05:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545290
+2025-09-12 10:05:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544551
+2025-09-12 10:06:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541291
+2025-09-12 10:06:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542537
+2025-09-12 10:06:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546759
+2025-09-12 10:06:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545094
+2025-09-12 10:06:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528843
+2025-09-12 10:06:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542861
+2025-09-12 10:06:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541428
+2025-09-12 10:06:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546575
+2025-09-12 10:06:38 [scrapy.extensions.logstats] INFO: Crawled 720 pages (at 12 pages/min), scraped 698 items (at 12 items/min)
+2025-09-12 10:06:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546577
+2025-09-12 10:06:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544505
+2025-09-12 10:06:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546688
+2025-09-12 10:06:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546580
+2025-09-12 10:06:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529001
+2025-09-12 10:06:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529088
+2025-09-12 10:07:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543964
+2025-09-12 10:07:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528883
+2025-09-12 10:07:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543006
+2025-09-12 10:07:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543662
+2025-09-12 10:07:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544204
+2025-09-12 10:07:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543722
+2025-09-12 10:07:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546713
+2025-09-12 10:07:38 [scrapy.extensions.logstats] INFO: Crawled 733 pages (at 13 pages/min), scraped 711 items (at 13 items/min)
+2025-09-12 10:07:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544053
+2025-09-12 10:07:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/535943
+2025-09-12 10:07:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545730
+2025-09-12 10:07:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546870
+2025-09-12 10:07:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541405
+2025-09-12 10:08:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545375
+2025-09-12 10:08:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543798
+2025-09-12 10:08:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530834
+2025-09-12 10:08:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546833
+2025-09-12 10:08:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546868
+2025-09-12 10:08:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546482
+2025-09-12 10:08:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528873
+2025-09-12 10:08:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529091
+2025-09-12 10:08:38 [scrapy.extensions.logstats] INFO: Crawled 746 pages (at 13 pages/min), scraped 724 items (at 13 items/min)
+2025-09-12 10:08:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528898
+2025-09-12 10:08:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543183
+2025-09-12 10:08:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543784
+2025-09-12 10:08:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545631
+2025-09-12 10:09:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546338
+2025-09-12 10:09:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528855
+2025-09-12 10:09:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528893
+2025-09-12 10:09:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546832
+2025-09-12 10:09:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546080
+2025-09-12 10:09:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541286
+2025-09-12 10:09:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540039
+2025-09-12 10:09:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544672
+2025-09-12 10:09:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546589
+2025-09-12 10:09:38 [scrapy.extensions.logstats] INFO: Crawled 759 pages (at 13 pages/min), scraped 737 items (at 13 items/min)
+2025-09-12 10:09:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544925
+2025-09-12 10:09:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528865
+2025-09-12 10:09:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528851
+2025-09-12 10:09:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534926
+2025-09-12 10:09:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528858
+2025-09-12 10:10:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530056
+2025-09-12 10:10:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546483
+2025-09-12 10:10:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546867
+2025-09-12 10:10:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529575
+2025-09-12 10:10:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546590
+2025-09-12 10:10:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546871
+2025-09-12 10:10:38 [scrapy.extensions.logstats] INFO: Crawled 770 pages (at 11 pages/min), scraped 748 items (at 11 items/min)
+2025-09-12 10:10:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546582
+2025-09-12 10:10:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528854
+2025-09-12 10:10:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547046
+2025-09-12 10:10:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540533
+2025-09-12 10:10:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529027
+2025-09-12 10:11:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528892
+2025-09-12 10:11:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531390
+2025-09-12 10:11:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528861
+2025-09-12 10:11:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528863
+2025-09-12 10:11:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540845
+2025-09-12 10:11:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528867
+2025-09-12 10:11:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544548
+2025-09-12 10:11:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541290
+2025-09-12 10:11:38 [scrapy.extensions.logstats] INFO: Crawled 783 pages (at 13 pages/min), scraped 761 items (at 13 items/min)
+2025-09-12 10:11:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528074
+2025-09-12 10:11:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/498460
+2025-09-12 10:11:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525797
+2025-09-12 10:11:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528828
+2025-09-12 10:12:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525678
+2025-09-12 10:12:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491406
+2025-09-12 10:12:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493165
+2025-09-12 10:12:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516685
+2025-09-12 10:12:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517712
+2025-09-12 10:12:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520667
+2025-09-12 10:12:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519946
+2025-09-12 10:12:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517779
+2025-09-12 10:12:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493172
+2025-09-12 10:12:38 [scrapy.extensions.logstats] INFO: Crawled 796 pages (at 13 pages/min), scraped 774 items (at 13 items/min)
+2025-09-12 10:12:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528814
+2025-09-12 10:12:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528805
+2025-09-12 10:12:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520021
+2025-09-12 10:12:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/511141
+2025-09-12 10:13:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517785
+2025-09-12 10:13:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526498
+2025-09-12 10:13:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517767
+2025-09-12 10:13:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524847
+2025-09-12 10:13:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493161
+2025-09-12 10:13:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/511265
+2025-09-12 10:13:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491405
+2025-09-12 10:13:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/510586
+2025-09-12 10:13:38 [scrapy.extensions.logstats] INFO: Crawled 808 pages (at 12 pages/min), scraped 786 items (at 12 items/min)
+2025-09-12 10:13:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/511747
+2025-09-12 10:13:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528826
+2025-09-12 10:13:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493136
+2025-09-12 10:13:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512029
+2025-09-12 10:14:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491567
+2025-09-12 10:14:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491580
+2025-09-12 10:14:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491399
+2025-09-12 10:14:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517586
+2025-09-12 10:14:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525424
+2025-09-12 10:14:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517768
+2025-09-12 10:14:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517776
+2025-09-12 10:14:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/498588
+2025-09-12 10:14:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522130
+2025-09-12 10:14:38 [scrapy.extensions.logstats] INFO: Crawled 821 pages (at 13 pages/min), scraped 799 items (at 13 items/min)
+2025-09-12 10:14:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512048
+2025-09-12 10:14:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517717
+2025-09-12 10:14:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528834
+2025-09-12 10:14:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522618
+2025-09-12 10:15:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528813
+2025-09-12 10:15:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526460
+2025-09-12 10:15:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517737
+2025-09-12 10:15:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/494134
+2025-09-12 10:15:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491573
+2025-09-12 10:15:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491501
+2025-09-12 10:15:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520694
+2025-09-12 10:15:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/511114
+2025-09-12 10:15:38 [scrapy.extensions.logstats] INFO: Crawled 833 pages (at 12 pages/min), scraped 811 items (at 12 items/min)
+2025-09-12 10:15:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491566
+2025-09-12 10:15:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/492487
+2025-09-12 10:15:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528829
+2025-09-12 10:15:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528804
+2025-09-12 10:16:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524783
+2025-09-12 10:16:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/527374
+2025-09-12 10:16:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491591
+2025-09-12 10:16:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518261
+2025-09-12 10:16:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517777
+2025-09-12 10:16:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521300
+2025-09-12 10:16:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528815
+2025-09-12 10:16:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518004
+2025-09-12 10:16:38 [scrapy.extensions.logstats] INFO: Crawled 845 pages (at 12 pages/min), scraped 823 items (at 12 items/min)
+2025-09-12 10:16:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517771
+2025-09-12 10:16:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/511852
+2025-09-12 10:16:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491872
+2025-09-12 10:16:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524711
+2025-09-12 10:17:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516699
+2025-09-12 10:17:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517763
+2025-09-12 10:17:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528480
+2025-09-12 10:17:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520698
+2025-09-12 10:17:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526951
+2025-09-12 10:17:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/494133
+2025-09-12 10:17:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/498590
+2025-09-12 10:17:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491512
+2025-09-12 10:17:38 [scrapy.extensions.logstats] INFO: Crawled 857 pages (at 12 pages/min), scraped 835 items (at 12 items/min)
+2025-09-12 10:17:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517713
+2025-09-12 10:17:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493164
+2025-09-12 10:17:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/498474
+2025-09-12 10:17:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491871
+2025-09-12 10:18:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518205
+2025-09-12 10:18:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512280
+2025-09-12 10:18:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524782
+2025-09-12 10:18:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524385
+2025-09-12 10:18:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491873
+2025-09-12 10:18:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528818
+2025-09-12 10:18:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540871
+2025-09-12 10:18:38 [scrapy.extensions.logstats] INFO: Crawled 868 pages (at 11 pages/min), scraped 846 items (at 11 items/min)
+2025-09-12 10:18:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531111
+2025-09-12 10:18:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/555056
+2025-09-12 10:18:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532435
+2025-09-12 10:18:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540872
+2025-09-12 10:18:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540868
+2025-09-12 10:19:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549727
+2025-09-12 10:19:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539296
+2025-09-12 10:19:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539283
+2025-09-12 10:19:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539282
+2025-09-12 10:19:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539284
+2025-09-12 10:19:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550305
+2025-09-12 10:19:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539295
+2025-09-12 10:19:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540873
+2025-09-12 10:19:38 [scrapy.extensions.logstats] INFO: Crawled 881 pages (at 13 pages/min), scraped 859 items (at 13 items/min)
+2025-09-12 10:19:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543096
+2025-09-12 10:19:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534158
+2025-09-12 10:19:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531059
+2025-09-12 10:19:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543891
+2025-09-12 10:19:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541899
+2025-09-12 10:20:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549154
+2025-09-12 10:20:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543605
+2025-09-12 10:20:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540665
+2025-09-12 10:20:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539287
+2025-09-12 10:20:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542561
+2025-09-12 10:20:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554931
+2025-09-12 10:20:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554606
+2025-09-12 10:20:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557608
+2025-09-12 10:20:38 [scrapy.extensions.logstats] INFO: Crawled 894 pages (at 13 pages/min), scraped 872 items (at 13 items/min)
+2025-09-12 10:20:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540870
+2025-09-12 10:20:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541231
+2025-09-12 10:20:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542139
+2025-09-12 10:20:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540496
+2025-09-12 10:21:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539290
+2025-09-12 10:21:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/536276
+2025-09-12 10:21:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549041
+2025-09-12 10:21:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539299
+2025-09-12 10:21:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533314
+2025-09-12 10:21:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546878
+2025-09-12 10:21:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539286
+2025-09-12 10:21:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/549017
+2025-09-12 10:21:38 [scrapy.extensions.logstats] INFO: Crawled 906 pages (at 12 pages/min), scraped 884 items (at 12 items/min)
+2025-09-12 10:21:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546002
+2025-09-12 10:21:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539297
+2025-09-12 10:21:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552196
+2025-09-12 10:21:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548135
+2025-09-12 10:21:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534771
+2025-09-12 10:22:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544019
+2025-09-12 10:22:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540865
+2025-09-12 10:22:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531069
+2025-09-12 10:22:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531057
+2025-09-12 10:22:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540331
+2025-09-12 10:22:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540867
+2025-09-12 10:22:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539288
+2025-09-12 10:22:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539285
+2025-09-12 10:22:38 [scrapy.extensions.logstats] INFO: Crawled 919 pages (at 13 pages/min), scraped 897 items (at 13 items/min)
+2025-09-12 10:22:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541480
+2025-09-12 10:22:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541478
+2025-09-12 10:22:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539292
+2025-09-12 10:22:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539587
+2025-09-12 10:22:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539291
+2025-09-12 10:23:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531055
+2025-09-12 10:23:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544020
+2025-09-12 10:23:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550162
+2025-09-12 10:23:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552636
+2025-09-12 10:23:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542850
+2025-09-12 10:23:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533321
+2025-09-12 10:23:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539294
+2025-09-12 10:23:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541476
+2025-09-12 10:23:38 [scrapy.extensions.logstats] INFO: Crawled 932 pages (at 13 pages/min), scraped 910 items (at 13 items/min)
+2025-09-12 10:23:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548094
+2025-09-12 10:23:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544083
+2025-09-12 10:23:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539298
+2025-09-12 10:23:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531989
+2025-09-12 10:24:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534762
+2025-09-12 10:24:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540874
+2025-09-12 10:24:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541481
+2025-09-12 10:24:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545821
+2025-09-12 10:24:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542396
+2025-09-12 10:24:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540869
+2025-09-12 10:24:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548749
+2025-09-12 10:24:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554712
+2025-09-12 10:24:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541479
+2025-09-12 10:24:38 [scrapy.extensions.logstats] INFO: Crawled 945 pages (at 13 pages/min), scraped 923 items (at 13 items/min)
+2025-09-12 10:24:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539293
+2025-09-12 10:24:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539289
+2025-09-12 10:24:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541332
+2025-09-12 10:25:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472050
+2025-09-12 10:25:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/470949
+2025-09-12 10:25:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421676
+2025-09-12 10:25:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451130
+2025-09-12 10:25:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430337
+2025-09-12 10:25:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529305
+2025-09-12 10:25:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/413450
+2025-09-12 10:25:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405534
+2025-09-12 10:25:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/486296
+2025-09-12 10:25:38 [scrapy.extensions.logstats] INFO: Crawled 957 pages (at 12 pages/min), scraped 935 items (at 12 items/min)
+2025-09-12 10:25:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539921
+2025-09-12 10:25:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416228
+2025-09-12 10:25:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491061
+2025-09-12 10:25:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/414395
+2025-09-12 10:25:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542127
+2025-09-12 10:26:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/453772
+2025-09-12 10:26:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454429
+2025-09-12 10:26:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532726
+2025-09-12 10:26:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489979
+2025-09-12 10:26:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416229
+2025-09-12 10:26:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/488938
+2025-09-12 10:26:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451191
+2025-09-12 10:26:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472636
+2025-09-12 10:26:38 [scrapy.extensions.logstats] INFO: Crawled 970 pages (at 13 pages/min), scraped 948 items (at 13 items/min)
+2025-09-12 10:26:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451488
+2025-09-12 10:26:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548485
+2025-09-12 10:26:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404187
+2025-09-12 10:26:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405114
+2025-09-12 10:27:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451165
+2025-09-12 10:27:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451120
+2025-09-12 10:27:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483559
+2025-09-12 10:27:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454489
+2025-09-12 10:27:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545935
+2025-09-12 10:27:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472006
+2025-09-12 10:27:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489978
+2025-09-12 10:27:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/453771
+2025-09-12 10:27:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405113
+2025-09-12 10:27:38 [scrapy.extensions.logstats] INFO: Crawled 983 pages (at 13 pages/min), scraped 961 items (at 13 items/min)
+2025-09-12 10:27:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451103
+2025-09-12 10:27:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541902
+2025-09-12 10:27:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454488
+2025-09-12 10:27:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421533
+2025-09-12 10:27:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451121
+2025-09-12 10:28:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451137
+2025-09-12 10:28:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454428
+2025-09-12 10:28:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/463907
+2025-09-12 10:28:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491014
+2025-09-12 10:28:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/442413
+2025-09-12 10:28:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457551
+2025-09-12 10:28:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/492293
+2025-09-12 10:28:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/376557
+2025-09-12 10:28:38 [scrapy.extensions.logstats] INFO: Crawled 996 pages (at 13 pages/min), scraped 974 items (at 13 items/min)
+2025-09-12 10:28:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/467494
+2025-09-12 10:28:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/468804
+2025-09-12 10:28:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483753
+2025-09-12 10:28:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451167
+2025-09-12 10:29:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454486
+2025-09-12 10:29:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/470972
+2025-09-12 10:29:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451190
+2025-09-12 10:29:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469342
+2025-09-12 10:29:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421658
+2025-09-12 10:29:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472061
+2025-09-12 10:29:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455560
+2025-09-12 10:29:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476650
+2025-09-12 10:29:38 [scrapy.extensions.logstats] INFO: Crawled 1008 pages (at 12 pages/min), scraped 986 items (at 12 items/min)
+2025-09-12 10:29:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/468208
+2025-09-12 10:29:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491283
+2025-09-12 10:29:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/480862
+2025-09-12 10:29:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/462974
+2025-09-12 10:30:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474175
+2025-09-12 10:30:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455517
+2025-09-12 10:30:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/490178
+2025-09-12 10:30:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/486388
+2025-09-12 10:30:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/460766
+2025-09-12 10:30:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455534
+2025-09-12 10:30:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455540
+2025-09-12 10:30:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456300
+2025-09-12 10:30:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455528
+2025-09-12 10:30:38 [scrapy.extensions.logstats] INFO: Crawled 1021 pages (at 13 pages/min), scraped 999 items (at 13 items/min)
+2025-09-12 10:30:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454061
+2025-09-12 10:30:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455617
+2025-09-12 10:30:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469693
+2025-09-12 10:30:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477214
+2025-09-12 10:31:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477130
+2025-09-12 10:31:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477831
+2025-09-12 10:31:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474646
+2025-09-12 10:31:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477247
+2025-09-12 10:31:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477212
+2025-09-12 10:31:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491340
+2025-09-12 10:31:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476203
+2025-09-12 10:31:38 [scrapy.extensions.logstats] INFO: Crawled 1032 pages (at 11 pages/min), scraped 1010 items (at 11 items/min)
+2025-09-12 10:31:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455511
+2025-09-12 10:31:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474174
+2025-09-12 10:31:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455526
+2025-09-12 10:31:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/449558
+2025-09-12 10:32:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451331
+2025-09-12 10:32:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/462278
+2025-09-12 10:32:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/485943
+2025-09-12 10:32:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455502
+2025-09-12 10:32:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491341
+2025-09-12 10:32:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/449700
+2025-09-12 10:32:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455529
+2025-09-12 10:32:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451311
+2025-09-12 10:32:38 [scrapy.extensions.logstats] INFO: Crawled 1044 pages (at 12 pages/min), scraped 1022 items (at 12 items/min)
+2025-09-12 10:32:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/486387
+2025-09-12 10:32:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491294
+2025-09-12 10:32:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491344
+2025-09-12 10:32:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491376
+2025-09-12 10:32:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455510
+2025-09-12 10:33:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451899
+2025-09-12 10:33:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464598
+2025-09-12 10:33:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/460700
+2025-09-12 10:33:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456344
+2025-09-12 10:33:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451712
+2025-09-12 10:33:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476115
+2025-09-12 10:33:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464599
+2025-09-12 10:33:38 [scrapy.extensions.logstats] INFO: Crawled 1056 pages (at 12 pages/min), scraped 1034 items (at 12 items/min)
+2025-09-12 10:33:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491272
+2025-09-12 10:33:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491343
+2025-09-12 10:33:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476204
+2025-09-12 10:33:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455508
+2025-09-12 10:33:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456550
+2025-09-12 10:34:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455503
+2025-09-12 10:34:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477292
+2025-09-12 10:34:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483030
+2025-09-12 10:34:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491295
+2025-09-12 10:34:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455541
+2025-09-12 10:34:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455527
+2025-09-12 10:34:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477211
+2025-09-12 10:34:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451306
+2025-09-12 10:34:38 [scrapy.extensions.logstats] INFO: Crawled 1069 pages (at 13 pages/min), scraped 1047 items (at 13 items/min)
+2025-09-12 10:34:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/452412
+2025-09-12 10:34:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/485942
+2025-09-12 10:34:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454069
+2025-09-12 10:34:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/465828
+2025-09-12 10:34:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454057
+2025-09-12 10:35:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451791
+2025-09-12 10:35:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476202
+2025-09-12 10:35:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455255
+2025-09-12 10:35:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454459
+2025-09-12 10:35:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/463187
+2025-09-12 10:35:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483347
+2025-09-12 10:35:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491342
+2025-09-12 10:35:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491375
+2025-09-12 10:35:38 [scrapy.extensions.logstats] INFO: Crawled 1082 pages (at 13 pages/min), scraped 1060 items (at 13 items/min)
+2025-09-12 10:35:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473701
+2025-09-12 10:35:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451299
+2025-09-12 10:35:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455506
+2025-09-12 10:35:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477260
+2025-09-12 10:35:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/462275
+2025-09-12 10:36:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/449702
+2025-09-12 10:36:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477291
+2025-09-12 10:36:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491346
+2025-09-12 10:36:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474176
+2025-09-12 10:36:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491371
+2025-09-12 10:36:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451326
+2025-09-12 10:36:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/463186
+2025-09-12 10:36:38 [scrapy.extensions.logstats] INFO: Crawled 1094 pages (at 12 pages/min), scraped 1072 items (at 12 items/min)
+2025-09-12 10:36:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491279
+2025-09-12 10:36:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/492412
+2025-09-12 10:36:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464644
+2025-09-12 10:36:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/492200
+2025-09-12 10:36:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/510256
+2025-09-12 10:37:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/459374
+2025-09-12 10:37:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454956
+2025-09-12 10:37:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/459910
+2025-09-12 10:37:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519287
+2025-09-12 10:37:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454986
+2025-09-12 10:37:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457813
+2025-09-12 10:37:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456493
+2025-09-12 10:37:38 [scrapy.extensions.logstats] INFO: Crawled 1106 pages (at 12 pages/min), scraped 1084 items (at 12 items/min)
+2025-09-12 10:37:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528627
+2025-09-12 10:37:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454998
+2025-09-12 10:37:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/500139
+2025-09-12 10:37:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457539
+2025-09-12 10:38:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456346
+2025-09-12 10:38:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454963
+2025-09-12 10:38:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525675
+2025-09-12 10:38:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454987
+2025-09-12 10:38:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/478431
+2025-09-12 10:38:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522094
+2025-09-12 10:38:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455978
+2025-09-12 10:38:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531051
+2025-09-12 10:38:38 [scrapy.extensions.logstats] INFO: Crawled 1118 pages (at 12 pages/min), scraped 1096 items (at 12 items/min)
+2025-09-12 10:38:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454962
+2025-09-12 10:38:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517866
+2025-09-12 10:38:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454999
+2025-09-12 10:38:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512477
+2025-09-12 10:39:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454955
+2025-09-12 10:39:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474407
+2025-09-12 10:39:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526985
+2025-09-12 10:39:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454994
+2025-09-12 10:39:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520050
+2025-09-12 10:39:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530347
+2025-09-12 10:39:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524391
+2025-09-12 10:39:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512484
+2025-09-12 10:39:38 [scrapy.extensions.logstats] INFO: Crawled 1130 pages (at 12 pages/min), scraped 1108 items (at 12 items/min)
+2025-09-12 10:39:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484151
+2025-09-12 10:39:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454995
+2025-09-12 10:39:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518447
+2025-09-12 10:39:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/492414
+2025-09-12 10:40:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454959
+2025-09-12 10:40:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454993
+2025-09-12 10:40:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525479
+2025-09-12 10:40:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476525
+2025-09-12 10:40:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/515820
+2025-09-12 10:40:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454990
+2025-09-12 10:40:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454991
+2025-09-12 10:40:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491706
+2025-09-12 10:40:38 [scrapy.extensions.logstats] INFO: Crawled 1142 pages (at 12 pages/min), scraped 1120 items (at 12 items/min)
+2025-09-12 10:40:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524837
+2025-09-12 10:40:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/460698
+2025-09-12 10:40:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454997
+2025-09-12 10:40:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474409
+2025-09-12 10:41:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484154
+2025-09-12 10:41:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484152
+2025-09-12 10:41:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516388
+2025-09-12 10:41:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454957
+2025-09-12 10:41:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/523770
+2025-09-12 10:41:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/511858
+2025-09-12 10:41:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/490779
+2025-09-12 10:41:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524392
+2025-09-12 10:41:38 [scrapy.extensions.logstats] INFO: Crawled 1154 pages (at 12 pages/min), scraped 1132 items (at 12 items/min)
+2025-09-12 10:41:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512348
+2025-09-12 10:41:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522213
+2025-09-12 10:41:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530029
+2025-09-12 10:41:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512274
+2025-09-12 10:42:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/496675
+2025-09-12 10:42:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454964
+2025-09-12 10:42:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474406
+2025-09-12 10:42:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/496646
+2025-09-12 10:42:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454970
+2025-09-12 10:42:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520145
+2025-09-12 10:42:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454992
+2025-09-12 10:42:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512489
+2025-09-12 10:42:38 [scrapy.extensions.logstats] INFO: Crawled 1166 pages (at 12 pages/min), scraped 1144 items (at 12 items/min)
+2025-09-12 10:42:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456001
+2025-09-12 10:42:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454996
+2025-09-12 10:42:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/511241
+2025-09-12 10:42:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512233
+2025-09-12 10:43:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455222
+2025-09-12 10:43:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520003
+2025-09-12 10:43:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455145
+2025-09-12 10:43:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456345
+2025-09-12 10:43:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484153
+2025-09-12 10:43:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/523560
+2025-09-12 10:43:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522255
+2025-09-12 10:43:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520159
+2025-09-12 10:43:38 [scrapy.extensions.logstats] INFO: Crawled 1178 pages (at 12 pages/min), scraped 1156 items (at 12 items/min)
+2025-09-12 10:43:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489205
+2025-09-12 10:43:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473261
+2025-09-12 10:43:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517910
+2025-09-12 10:43:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/513694
+2025-09-12 10:44:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/510752
+2025-09-12 10:44:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454979
+2025-09-12 10:44:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525465
+2025-09-12 10:44:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489207
+2025-09-12 10:44:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489206
+2025-09-12 10:44:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454954
+2025-09-12 10:44:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454958
+2025-09-12 10:44:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/514866
+2025-09-12 10:44:38 [scrapy.extensions.logstats] INFO: Crawled 1190 pages (at 12 pages/min), scraped 1168 items (at 12 items/min)
+2025-09-12 10:44:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525674
+2025-09-12 10:44:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491515
+2025-09-12 10:44:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472290
+2025-09-12 10:44:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/510912
+2025-09-12 10:45:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476423
+2025-09-12 10:45:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548804
+2025-09-12 10:45:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517708
+2025-09-12 10:45:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/467913
+2025-09-12 10:45:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526927
+2025-09-12 10:45:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491013
+2025-09-12 10:45:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472014
+2025-09-12 10:45:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521597
+2025-09-12 10:45:38 [scrapy.extensions.logstats] INFO: Crawled 1202 pages (at 12 pages/min), scraped 1180 items (at 12 items/min)
+2025-09-12 10:45:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524615
+2025-09-12 10:45:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534274
+2025-09-12 10:45:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472032
+2025-09-12 10:45:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451169
+2025-09-12 10:46:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483558
+2025-09-12 10:46:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531191
+2025-09-12 10:46:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436193
+2025-09-12 10:46:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481545
+2025-09-12 10:46:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522141
+2025-09-12 10:46:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481544
+2025-09-12 10:46:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476649
+2025-09-12 10:46:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484072
+2025-09-12 10:46:38 [scrapy.extensions.logstats] INFO: Crawled 1214 pages (at 12 pages/min), scraped 1192 items (at 12 items/min)
+2025-09-12 10:46:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472064
+2025-09-12 10:46:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472076
+2025-09-12 10:46:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517580
+2025-09-12 10:46:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489011
+2025-09-12 10:47:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512104
+2025-09-12 10:47:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530091
+2025-09-12 10:47:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559574
+2025-09-12 10:47:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521079
+2025-09-12 10:47:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542949
+2025-09-12 10:47:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472078
+2025-09-12 10:47:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428417
+2025-09-12 10:47:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/589461
+2025-09-12 10:47:38 [scrapy.extensions.logstats] INFO: Crawled 1226 pages (at 12 pages/min), scraped 1204 items (at 12 items/min)
+2025-09-12 10:47:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517964
+2025-09-12 10:47:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/488958
+2025-09-12 10:47:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421347
+2025-09-12 10:47:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472149
+2025-09-12 10:47:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546523
+2025-09-12 10:48:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418122
+2025-09-12 10:48:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548805
+2025-09-12 10:48:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550489
+2025-09-12 10:48:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451151
+2025-09-12 10:48:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451152
+2025-09-12 10:48:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547127
+2025-09-12 10:48:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428398
+2025-09-12 10:48:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483560
+2025-09-12 10:48:38 [scrapy.extensions.logstats] INFO: Crawled 1239 pages (at 13 pages/min), scraped 1217 items (at 13 items/min)
+2025-09-12 10:48:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421391
+2025-09-12 10:48:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559316
+2025-09-12 10:48:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540630
+2025-09-12 10:48:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542190
+2025-09-12 10:48:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524051
+2025-09-12 10:49:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557676
+2025-09-12 10:49:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541374
+2025-09-12 10:49:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483557
+2025-09-12 10:49:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552474
+2025-09-12 10:49:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/558339
+2025-09-12 10:49:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547165
+2025-09-12 10:49:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472053
+2025-09-12 10:49:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/557583
+2025-09-12 10:49:38 [scrapy.extensions.logstats] INFO: Crawled 1252 pages (at 13 pages/min), scraped 1230 items (at 13 items/min)
+2025-09-12 10:49:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476673
+2025-09-12 10:49:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/539986
+2025-09-12 10:49:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533140
+2025-09-12 10:49:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550598
+2025-09-12 10:50:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410095
+2025-09-12 10:50:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491069
+2025-09-12 10:50:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451106
+2025-09-12 10:50:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/510491
+2025-09-12 10:50:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489980
+2025-09-12 10:50:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/527370
+2025-09-12 10:50:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484771
+2025-09-12 10:50:38 [scrapy.extensions.logstats] INFO: Crawled 1264 pages (at 12 pages/min), scraped 1241 items (at 11 items/min)
+2025-09-12 10:50:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550490
+2025-09-12 10:50:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524118
+2025-09-12 10:50:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451183
+2025-09-12 10:50:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/515685
+2025-09-12 10:50:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451131
+2025-09-12 10:51:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534178
+2025-09-12 10:51:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/492301
+2025-09-12 10:51:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472062
+2025-09-12 10:51:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521085
+2025-09-12 10:51:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404186
+2025-09-12 10:51:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/513096
+2025-09-12 10:51:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/463785
+2025-09-12 10:51:38 [scrapy.extensions.logstats] INFO: Crawled 1275 pages (at 11 pages/min), scraped 1253 items (at 12 items/min)
+2025-09-12 10:51:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548807
+2025-09-12 10:51:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517210
+2025-09-12 10:51:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491070
+2025-09-12 10:51:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543202
+2025-09-12 10:52:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/510484
+2025-09-12 10:52:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/486295
+2025-09-12 10:52:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/488910
+2025-09-12 10:52:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491039
+2025-09-12 10:52:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548806
+2025-09-12 10:52:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491050
+2025-09-12 10:52:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552773
+2025-09-12 10:52:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/535927
+2025-09-12 10:52:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552805
+2025-09-12 10:52:38 [scrapy.extensions.logstats] INFO: Crawled 1288 pages (at 13 pages/min), scraped 1266 items (at 13 items/min)
+2025-09-12 10:52:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542937
+2025-09-12 10:52:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541973
+2025-09-12 10:52:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541134
+2025-09-12 10:52:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/523981
+2025-09-12 10:53:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428421
+2025-09-12 10:53:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418247
+2025-09-12 10:53:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545936
+2025-09-12 10:53:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403703
+2025-09-12 10:53:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446138
+2025-09-12 10:53:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425766
+2025-09-12 10:53:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418094
+2025-09-12 10:53:38 [scrapy.extensions.logstats] INFO: Crawled 1299 pages (at 11 pages/min), scraped 1277 items (at 11 items/min)
+2025-09-12 10:53:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446351
+2025-09-12 10:53:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/445992
+2025-09-12 10:53:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437778
+2025-09-12 10:53:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/378594
+2025-09-12 10:53:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446878
+2025-09-12 10:54:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408343
+2025-09-12 10:54:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425982
+2025-09-12 10:54:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430967
+2025-09-12 10:54:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419690
+2025-09-12 10:54:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446117
+2025-09-12 10:54:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/423173
+2025-09-12 10:54:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415231
+2025-09-12 10:54:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446139
+2025-09-12 10:54:38 [scrapy.extensions.logstats] INFO: Crawled 1312 pages (at 13 pages/min), scraped 1290 items (at 13 items/min)
+2025-09-12 10:54:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418928
+2025-09-12 10:54:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/435188
+2025-09-12 10:54:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/407559
+2025-09-12 10:54:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402514
+2025-09-12 10:54:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441506
+2025-09-12 10:55:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421811
+2025-09-12 10:55:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410177
+2025-09-12 10:55:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/438099
+2025-09-12 10:55:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441545
+2025-09-12 10:55:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/423646
+2025-09-12 10:55:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441507
+2025-09-12 10:55:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/439120
+2025-09-12 10:55:38 [scrapy.extensions.logstats] INFO: Crawled 1324 pages (at 12 pages/min), scraped 1302 items (at 12 items/min)
+2025-09-12 10:55:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441310
+2025-09-12 10:55:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416502
+2025-09-12 10:55:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419663
+2025-09-12 10:55:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408242
+2025-09-12 10:56:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408245
+2025-09-12 10:56:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422582
+2025-09-12 10:56:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419691
+2025-09-12 10:56:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406129
+2025-09-12 10:56:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/434684
+2025-09-12 10:56:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/413405
+2025-09-12 10:56:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416916
+2025-09-12 10:56:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426188
+2025-09-12 10:56:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410852
+2025-09-12 10:56:38 [scrapy.extensions.logstats] INFO: Crawled 1337 pages (at 13 pages/min), scraped 1315 items (at 13 items/min)
+2025-09-12 10:56:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408244
+2025-09-12 10:56:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441542
+2025-09-12 10:56:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/427213
+2025-09-12 10:56:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419335
+2025-09-12 10:57:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441567
+2025-09-12 10:57:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/439187
+2025-09-12 10:57:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441549
+2025-09-12 10:57:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421003
+2025-09-12 10:57:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446137
+2025-09-12 10:57:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/400486
+2025-09-12 10:57:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410851
+2025-09-12 10:57:38 [scrapy.extensions.logstats] INFO: Crawled 1348 pages (at 11 pages/min), scraped 1326 items (at 11 items/min)
+2025-09-12 10:57:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425918
+2025-09-12 10:57:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421017
+2025-09-12 10:57:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/413406
+2025-09-12 10:57:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425165
+2025-09-12 10:57:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441551
+2025-09-12 10:58:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426513
+2025-09-12 10:58:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419664
+2025-09-12 10:58:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441505
+2025-09-12 10:58:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448790
+2025-09-12 10:58:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433126
+2025-09-12 10:58:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/444085
+2025-09-12 10:58:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/435741
+2025-09-12 10:58:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/434344
+2025-09-12 10:58:38 [scrapy.extensions.logstats] INFO: Crawled 1361 pages (at 13 pages/min), scraped 1339 items (at 13 items/min)
+2025-09-12 10:58:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/431880
+2025-09-12 10:58:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/439185
+2025-09-12 10:58:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408400
+2025-09-12 10:58:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425984
+2025-09-12 10:59:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/407458
+2025-09-12 10:59:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418075
+2025-09-12 10:59:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404903
+2025-09-12 10:59:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/439186
+2025-09-12 10:59:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/431479
+2025-09-12 10:59:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422299
+2025-09-12 10:59:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/442268
+2025-09-12 10:59:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/407848
+2025-09-12 10:59:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419665
+2025-09-12 10:59:38 [scrapy.extensions.logstats] INFO: Crawled 1374 pages (at 13 pages/min), scraped 1352 items (at 13 items/min)
+2025-09-12 10:59:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441311
+2025-09-12 10:59:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403707
+2025-09-12 10:59:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421812
+2025-09-12 10:59:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415269
+2025-09-12 10:59:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/444449
+2025-09-12 11:00:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/423688
+2025-09-12 11:00:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/370782
+2025-09-12 11:00:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454940
+2025-09-12 11:00:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454906
+2025-09-12 11:00:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411750
+2025-09-12 11:00:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411857
+2025-09-12 11:00:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421977
+2025-09-12 11:00:38 [scrapy.extensions.logstats] INFO: Crawled 1386 pages (at 12 pages/min), scraped 1364 items (at 12 items/min)
+2025-09-12 11:00:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454943
+2025-09-12 11:00:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448577
+2025-09-12 11:00:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421980
+2025-09-12 11:00:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/401639
+2025-09-12 11:01:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411070
+2025-09-12 11:01:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404910
+2025-09-12 11:01:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454948
+2025-09-12 11:01:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411845
+2025-09-12 11:01:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454922
+2025-09-12 11:01:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454908
+2025-09-12 11:01:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/438097
+2025-09-12 11:01:38 [scrapy.extensions.logstats] INFO: Crawled 1397 pages (at 11 pages/min), scraped 1375 items (at 11 items/min)
+2025-09-12 11:01:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/378592
+2025-09-12 11:01:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454901
+2025-09-12 11:01:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425968
+2025-09-12 11:01:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450682
+2025-09-12 11:02:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446851
+2025-09-12 11:02:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419910
+2025-09-12 11:02:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419912
+2025-09-12 11:02:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454903
+2025-09-12 11:02:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454953
+2025-09-12 11:02:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/434997
+2025-09-12 11:02:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419919
+2025-09-12 11:02:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411814
+2025-09-12 11:02:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419915
+2025-09-12 11:02:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411192
+2025-09-12 11:02:38 [scrapy.extensions.logstats] INFO: Crawled 1411 pages (at 14 pages/min), scraped 1389 items (at 14 items/min)
+2025-09-12 11:02:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419920
+2025-09-12 11:02:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454932
+2025-09-12 11:02:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454952
+2025-09-12 11:02:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450673
+2025-09-12 11:03:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419918
+2025-09-12 11:03:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419913
+2025-09-12 11:03:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454924
+2025-09-12 11:03:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454913
+2025-09-12 11:03:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450968
+2025-09-12 11:03:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419923
+2025-09-12 11:03:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454951
+2025-09-12 11:03:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454944
+2025-09-12 11:03:38 [scrapy.extensions.logstats] INFO: Crawled 1423 pages (at 12 pages/min), scraped 1401 items (at 12 items/min)
+2025-09-12 11:03:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451737
+2025-09-12 11:03:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441772
+2025-09-12 11:03:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411848
+2025-09-12 11:03:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411358
+2025-09-12 11:04:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/407560
+2025-09-12 11:04:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450692
+2025-09-12 11:04:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418610
+2025-09-12 11:04:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454949
+2025-09-12 11:04:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451797
+2025-09-12 11:04:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418068
+2025-09-12 11:04:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/424308
+2025-09-12 11:04:38 [scrapy.extensions.logstats] INFO: Crawled 1434 pages (at 11 pages/min), scraped 1412 items (at 11 items/min)
+2025-09-12 11:04:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/449764
+2025-09-12 11:04:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/453964
+2025-09-12 11:04:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419922
+2025-09-12 11:04:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421978
+2025-09-12 11:05:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454947
+2025-09-12 11:05:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419921
+2025-09-12 11:05:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411190
+2025-09-12 11:05:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416068
+2025-09-12 11:05:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421979
+2025-09-12 11:05:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/414977
+2025-09-12 11:05:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/434609
+2025-09-12 11:05:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411855
+2025-09-12 11:05:38 [scrapy.extensions.logstats] INFO: Crawled 1446 pages (at 12 pages/min), scraped 1424 items (at 12 items/min)
+2025-09-12 11:05:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419925
+2025-09-12 11:05:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419914
+2025-09-12 11:05:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/412986
+2025-09-12 11:05:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454189
+2025-09-12 11:06:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419916
+2025-09-12 11:06:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/449134
+2025-09-12 11:06:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411751
+2025-09-12 11:06:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411813
+2025-09-12 11:06:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419911
+2025-09-12 11:06:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410833
+2025-09-12 11:06:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451802
+2025-09-12 11:06:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450687
+2025-09-12 11:06:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421976
+2025-09-12 11:06:38 [scrapy.extensions.logstats] INFO: Crawled 1459 pages (at 13 pages/min), scraped 1437 items (at 13 items/min)
+2025-09-12 11:06:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451738
+2025-09-12 11:06:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411847
+2025-09-12 11:06:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451798
+2025-09-12 11:06:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454950
+2025-09-12 11:07:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450681
+2025-09-12 11:07:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/449765
+2025-09-12 11:07:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409747
+2025-09-12 11:07:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419917
+2025-09-12 11:07:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450675
+2025-09-12 11:07:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411191
+2025-09-12 11:07:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422946
+2025-09-12 11:07:38 [scrapy.extensions.logstats] INFO: Crawled 1470 pages (at 11 pages/min), scraped 1448 items (at 11 items/min)
+2025-09-12 11:07:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/449770
+2025-09-12 11:07:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454177
+2025-09-12 11:07:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425495
+2025-09-12 11:07:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454917
+2025-09-12 11:07:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416444
+2025-09-12 11:08:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450884
+2025-09-12 11:08:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450932
+2025-09-12 11:08:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454937
+2025-09-12 11:08:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/453963
+2025-09-12 11:08:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450671
+2025-09-12 11:08:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/440687
+2025-09-12 11:08:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464967
+2025-09-12 11:08:38 [scrapy.extensions.logstats] INFO: Crawled 1482 pages (at 12 pages/min), scraped 1460 items (at 12 items/min)
+2025-09-12 11:08:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/432572
+2025-09-12 11:08:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464992
+2025-09-12 11:08:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415738
+2025-09-12 11:08:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464991
+2025-09-12 11:08:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464911
+2025-09-12 11:09:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/444064
+2025-09-12 11:09:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451129
+2025-09-12 11:09:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451193
+2025-09-12 11:09:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457907
+2025-09-12 11:09:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464973
+2025-09-12 11:09:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464953
+2025-09-12 11:09:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464947
+2025-09-12 11:09:38 [scrapy.extensions.logstats] INFO: Crawled 1494 pages (at 12 pages/min), scraped 1472 items (at 12 items/min)
+2025-09-12 11:09:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437556
+2025-09-12 11:09:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/453213
+2025-09-12 11:09:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451123
+2025-09-12 11:09:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464979
+2025-09-12 11:09:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451181
+2025-09-12 11:10:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464930
+2025-09-12 11:10:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451170
+2025-09-12 11:10:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464989
+2025-09-12 11:10:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464997
+2025-09-12 11:10:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464957
+2025-09-12 11:10:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450089
+2025-09-12 11:10:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421689
+2025-09-12 11:10:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437509
+2025-09-12 11:10:38 [scrapy.extensions.logstats] INFO: Crawled 1507 pages (at 13 pages/min), scraped 1485 items (at 13 items/min)
+2025-09-12 11:10:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464981
+2025-09-12 11:10:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451698
+2025-09-12 11:10:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451470
+2025-09-12 11:10:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437840
+2025-09-12 11:11:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472063
+2025-09-12 11:11:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464950
+2025-09-12 11:11:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472039
+2025-09-12 11:11:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451136
+2025-09-12 11:11:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464983
+2025-09-12 11:11:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451122
+2025-09-12 11:11:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450582
+2025-09-12 11:11:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415979
+2025-09-12 11:11:38 [scrapy.extensions.logstats] INFO: Crawled 1519 pages (at 12 pages/min), scraped 1497 items (at 12 items/min)
+2025-09-12 11:11:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436573
+2025-09-12 11:11:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464937
+2025-09-12 11:11:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464977
+2025-09-12 11:11:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/462970
+2025-09-12 11:11:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464980
+2025-09-12 11:12:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464949
+2025-09-12 11:12:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451192
+2025-09-12 11:12:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/432571
+2025-09-12 11:12:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450594
+2025-09-12 11:12:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/434342
+2025-09-12 11:12:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451149
+2025-09-12 11:12:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415739
+2025-09-12 11:12:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454487
+2025-09-12 11:12:38 [scrapy.extensions.logstats] INFO: Crawled 1532 pages (at 13 pages/min), scraped 1510 items (at 13 items/min)
+2025-09-12 11:12:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451195
+2025-09-12 11:12:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464976
+2025-09-12 11:12:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464974
+2025-09-12 11:12:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464975
+2025-09-12 11:13:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437555
+2025-09-12 11:13:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436561
+2025-09-12 11:13:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472008
+2025-09-12 11:13:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402672
+2025-09-12 11:13:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472069
+2025-09-12 11:13:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/452064
+2025-09-12 11:13:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464994
+2025-09-12 11:13:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464931
+2025-09-12 11:13:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472054
+2025-09-12 11:13:38 [scrapy.extensions.logstats] INFO: Crawled 1545 pages (at 13 pages/min), scraped 1523 items (at 13 items/min)
+2025-09-12 11:13:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402363
+2025-09-12 11:13:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437796
+2025-09-12 11:13:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464936
+2025-09-12 11:13:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464982
+2025-09-12 11:13:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421534
+2025-09-12 11:14:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464948
+2025-09-12 11:14:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464935
+2025-09-12 11:14:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/462975
+2025-09-12 11:14:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464998
+2025-09-12 11:14:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464956
+2025-09-12 11:14:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472009
+2025-09-12 11:14:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464999
+2025-09-12 11:14:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421390
+2025-09-12 11:14:38 [scrapy.extensions.logstats] INFO: Crawled 1558 pages (at 13 pages/min), scraped 1536 items (at 13 items/min)
+2025-09-12 11:14:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421675
+2025-09-12 11:14:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464996
+2025-09-12 11:14:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/442442
+2025-09-12 11:14:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472060
+2025-09-12 11:15:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455559
+2025-09-12 11:15:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/444099
+2025-09-12 11:15:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421535
+2025-09-12 11:15:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464986
+2025-09-12 11:15:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464968
+2025-09-12 11:15:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/432705
+2025-09-12 11:15:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450595
+2025-09-12 11:15:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436572
+2025-09-12 11:15:38 [scrapy.extensions.logstats] INFO: Crawled 1570 pages (at 12 pages/min), scraped 1548 items (at 12 items/min)
+2025-09-12 11:15:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472019
+2025-09-12 11:15:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451182
+2025-09-12 11:15:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451162
+2025-09-12 11:15:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419982
+2025-09-12 11:16:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451816
+2025-09-12 11:16:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419983
+2025-09-12 11:16:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451147
+2025-09-12 11:16:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458868
+2025-09-12 11:16:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464972
+2025-09-12 11:16:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/412901
+2025-09-12 11:16:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464940
+2025-09-12 11:16:38 [scrapy.extensions.logstats] INFO: Crawled 1581 pages (at 11 pages/min), scraped 1559 items (at 11 items/min)
+2025-09-12 11:16:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433368
+2025-09-12 11:16:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479722
+2025-09-12 11:16:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/676338
+2025-09-12 11:16:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/375549
+2025-09-12 11:16:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479733
+2025-09-12 11:16:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491079
+2025-09-12 11:17:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/923362
+2025-09-12 11:17:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544451
+2025-09-12 11:17:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521766
+2025-09-12 11:17:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/589963
+2025-09-12 11:17:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540164
+2025-09-12 11:17:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491085
+2025-09-12 11:17:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516883
+2025-09-12 11:17:38 [scrapy.extensions.logstats] INFO: Crawled 1594 pages (at 13 pages/min), scraped 1572 items (at 13 items/min)
+2025-09-12 11:17:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417718
+2025-09-12 11:17:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479732
+2025-09-12 11:17:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559078
+2025-09-12 11:17:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430264
+2025-09-12 11:18:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/589857
+2025-09-12 11:18:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559077
+2025-09-12 11:18:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430263
+2025-09-12 11:18:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/926366
+2025-09-12 11:18:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/375548
+2025-09-12 11:18:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545033
+2025-09-12 11:18:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521768
+2025-09-12 11:18:38 [scrapy.extensions.logstats] INFO: Crawled 1605 pages (at 11 pages/min), scraped 1583 items (at 11 items/min)
+2025-09-12 11:18:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/676392
+2025-09-12 11:18:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516737
+2025-09-12 11:18:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479729
+2025-09-12 11:18:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/515607
+2025-09-12 11:18:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479731
+2025-09-12 11:19:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408324
+2025-09-12 11:19:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408321
+2025-09-12 11:19:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408323
+2025-09-12 11:19:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483426
+2025-09-12 11:19:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481456
+2025-09-12 11:19:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410172
+2025-09-12 11:19:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418781
+2025-09-12 11:19:38 [scrapy.extensions.logstats] INFO: Crawled 1617 pages (at 12 pages/min), scraped 1595 items (at 12 items/min)
+2025-09-12 11:19:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473873
+2025-09-12 11:19:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473874
+2025-09-12 11:19:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446904
+2025-09-12 11:19:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/485470
+2025-09-12 11:20:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418009
+2025-09-12 11:20:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/424232
+2025-09-12 11:20:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416673
+2025-09-12 11:20:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/427832
+2025-09-12 11:20:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/499893
+2025-09-12 11:20:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484799
+2025-09-12 11:20:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403484
+2025-09-12 11:20:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518969
+2025-09-12 11:20:38 [scrapy.extensions.logstats] INFO: Crawled 1629 pages (at 12 pages/min), scraped 1607 items (at 12 items/min)
+2025-09-12 11:20:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554269
+2025-09-12 11:20:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479046
+2025-09-12 11:20:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/429558
+2025-09-12 11:20:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409662
+2025-09-12 11:21:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/527685
+2025-09-12 11:21:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479049
+2025-09-12 11:21:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479092
+2025-09-12 11:21:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/670862
+2025-09-12 11:21:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519746
+2025-09-12 11:21:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/676662
+2025-09-12 11:21:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/468598
+2025-09-12 11:21:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/558616
+2025-09-12 11:21:38 [scrapy.extensions.logstats] INFO: Crawled 1641 pages (at 12 pages/min), scraped 1619 items (at 12 items/min)
+2025-09-12 11:21:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418782
+2025-09-12 11:21:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/427831
+2025-09-12 11:21:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479047
+2025-09-12 11:21:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491664
+2025-09-12 11:22:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/423120
+2025-09-12 11:22:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418780
+2025-09-12 11:22:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479048
+2025-09-12 11:22:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/427833
+2025-09-12 11:22:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416675
+2025-09-12 11:22:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415252
+2025-09-12 11:22:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479074
+2025-09-12 11:22:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531951
+2025-09-12 11:22:38 [scrapy.extensions.logstats] INFO: Crawled 1653 pages (at 12 pages/min), scraped 1631 items (at 12 items/min)
+2025-09-12 11:22:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410659
+2025-09-12 11:22:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/676436
+2025-09-12 11:22:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416672
+2025-09-12 11:22:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554270
+2025-09-12 11:23:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416674
+2025-09-12 11:23:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408417
+2025-09-12 11:23:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547687
+2025-09-12 11:23:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/447848
+2025-09-12 11:23:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/447851
+2025-09-12 11:23:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408416
+2025-09-12 11:23:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417440
+2025-09-12 11:23:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409782
+2025-09-12 11:23:38 [scrapy.extensions.logstats] INFO: Crawled 1665 pages (at 12 pages/min), scraped 1643 items (at 12 items/min)
+2025-09-12 11:23:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418689
+2025-09-12 11:23:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416967
+2025-09-12 11:23:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491699
+2025-09-12 11:23:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/447850
+2025-09-12 11:24:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/447849
+2025-09-12 11:24:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403262
+2025-09-12 11:24:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409783
+2025-09-12 11:24:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402306
+2025-09-12 11:24:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446906
+2025-09-12 11:24:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/485469
+2025-09-12 11:24:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484149
+2025-09-12 11:24:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479091
+2025-09-12 11:24:38 [scrapy.extensions.logstats] INFO: Crawled 1677 pages (at 12 pages/min), scraped 1655 items (at 12 items/min)
+2025-09-12 11:24:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458812
+2025-09-12 11:24:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446905
+2025-09-12 11:24:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/427834
+2025-09-12 11:24:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/424233
+2025-09-12 11:24:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/468597
+2025-09-12 11:25:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402807
+2025-09-12 11:25:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406941
+2025-09-12 11:25:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554430
+2025-09-12 11:25:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405595
+2025-09-12 11:25:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433869
+2025-09-12 11:25:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472224
+2025-09-12 11:25:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/414643
+2025-09-12 11:25:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406939
+2025-09-12 11:25:38 [scrapy.extensions.logstats] INFO: Crawled 1690 pages (at 13 pages/min), scraped 1668 items (at 13 items/min)
+2025-09-12 11:25:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408473
+2025-09-12 11:25:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473851
+2025-09-12 11:25:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/468917
+2025-09-12 11:25:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411982
+2025-09-12 11:25:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472226
+2025-09-12 11:26:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554428
+2025-09-12 11:26:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/408472
+2025-09-12 11:26:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/446943
+2025-09-12 11:26:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554429
+2025-09-12 11:26:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474113
+2025-09-12 11:26:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458229
+2025-09-12 11:26:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458227
+2025-09-12 11:26:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458222
+2025-09-12 11:26:38 [scrapy.extensions.logstats] INFO: Crawled 1703 pages (at 13 pages/min), scraped 1681 items (at 13 items/min)
+2025-09-12 11:26:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458220
+2025-09-12 11:26:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/414644
+2025-09-12 11:26:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458223
+2025-09-12 11:26:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472225
+2025-09-12 11:27:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458225
+2025-09-12 11:27:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472872
+2025-09-12 11:27:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/471290
+2025-09-12 11:27:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428961
+2025-09-12 11:27:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458228
+2025-09-12 11:27:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/411983
+2025-09-12 11:27:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433866
+2025-09-12 11:27:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402806
+2025-09-12 11:27:38 [scrapy.extensions.logstats] INFO: Crawled 1715 pages (at 12 pages/min), scraped 1693 items (at 12 items/min)
+2025-09-12 11:27:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433373
+2025-09-12 11:27:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457208
+2025-09-12 11:27:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/478704
+2025-09-12 11:27:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457209
+2025-09-12 11:27:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458219
+2025-09-12 11:28:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/432433
+2025-09-12 11:28:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402545
+2025-09-12 11:28:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402544
+2025-09-12 11:28:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406940
+2025-09-12 11:28:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/481213
+2025-09-12 11:28:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484133
+2025-09-12 11:28:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457207
+2025-09-12 11:28:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405594
+2025-09-12 11:28:38 [scrapy.extensions.logstats] INFO: Crawled 1728 pages (at 13 pages/min), scraped 1706 items (at 13 items/min)
+2025-09-12 11:28:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472846
+2025-09-12 11:28:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/523050
+2025-09-12 11:28:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404749
+2025-09-12 11:28:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/478705
+2025-09-12 11:28:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477022
+2025-09-12 11:29:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458221
+2025-09-12 11:29:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458224
+2025-09-12 11:29:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402543
+2025-09-12 11:29:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554431
+2025-09-12 11:29:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402542
+2025-09-12 11:29:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410306
+2025-09-12 11:29:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457206
+2025-09-12 11:29:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458226
+2025-09-12 11:29:38 [scrapy.extensions.logstats] INFO: Crawled 1741 pages (at 13 pages/min), scraped 1719 items (at 13 items/min)
+2025-09-12 11:29:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433864
+2025-09-12 11:29:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428962
+2025-09-12 11:29:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484876
+2025-09-12 11:29:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/478706
+2025-09-12 11:30:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433868
+2025-09-12 11:30:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433867
+2025-09-12 11:30:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/431377
+2025-09-12 11:30:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/477024
+2025-09-12 11:30:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/410743
+2025-09-12 11:30:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402546
+2025-09-12 11:30:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433865
+2025-09-12 11:30:38 [scrapy.extensions.logstats] INFO: Crawled 1752 pages (at 11 pages/min), scraped 1730 items (at 11 items/min)
+2025-09-12 11:30:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512349
+2025-09-12 11:30:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-09-12 11:30:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1143287,
+ 'downloader/request_count': 1753,
+ 'downloader/request_method_count/GET': 1753,
+ 'downloader/response_bytes': 180400409,
+ 'downloader/response_count': 1753,
+ 'downloader/response_status_count/200': 1753,
+ 'elapsed_time_seconds': 8580.193583,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 9, 12, 3, 30, 38, 217701, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 1731,
+ 'items_per_minute': 12.104895104895105,
+ 'log_count/INFO': 1936,
+ 'log_count/WARNING': 7,
+ 'playwright/browser_count': 1,
+ 'playwright/context_count': 1,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 1,
+ 'playwright/context_count/remote/False': 1,
+ 'playwright/page_count': 1753,
+ 'playwright/page_count/closed': 1753,
+ 'playwright/page_count/max_concurrent': 2,
+ 'playwright/request_count': 15755,
+ 'playwright/request_count/method/GET': 15755,
+ 'playwright/request_count/navigation': 1753,
+ 'playwright/request_count/resource_type/document': 1753,
+ 'playwright/request_count/resource_type/image': 5237,
+ 'playwright/request_count/resource_type/script': 8765,
+ 'playwright/response_count': 6990,
+ 'playwright/response_count/method/GET': 6990,
+ 'playwright/response_count/resource_type/document': 1753,
+ 'playwright/response_count/resource_type/image': 5237,
+ 'request_depth_max': 11,
+ 'response_received_count': 1753,
+ 'responses_per_minute': 12.258741258741258,
+ 'scheduler/dequeued': 1753,
+ 'scheduler/dequeued/disk': 1753,
+ 'scheduler/enqueued': 1753,
+ 'scheduler/enqueued/disk': 1753,
+ 'start_time': datetime.datetime(2025, 9, 12, 1, 7, 38, 24118, tzinfo=datetime.timezone.utc)}
+2025-09-12 11:30:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-09-12 11:30:38 [scrapy-playwright] INFO: Closing download handler
+2025-09-12 11:30:38 [scrapy-playwright] INFO: Closing download handler
+2025-09-12 11:30:38 [scrapy-playwright] INFO: Closing browser

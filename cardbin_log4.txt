@@ -1,0 +1,756 @@
+2025-09-10 17:14:07 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: cardbin)
+2025-09-10 17:14:08 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.3.2',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.9 (tags/v3.12.9:fdb8142, Feb  4 2025, 15:27:58) [MSC v.1942 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.2 5 Aug 2025)',
+ 'cryptography': '45.0.7',
+ 'Platform': 'Windows-11-10.0.26100-SP0'}
+2025-09-10 17:14:08 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-09-10 17:14:08 [scrapy.extensions.telnet] INFO: Telnet Password: 9419675990c8a758
+2025-09-10 17:14:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.spiderstate.SpiderState',
+ 'scrapy.extensions.throttle.AutoThrottle']
+2025-09-10 17:14:08 [scrapy.crawler] INFO: Overridden settings:
+{'AUTOTHROTTLE_ENABLED': True,
+ 'BOT_NAME': 'cardbin',
+ 'DOWNLOAD_DELAY': 4,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'JOBDIR': './crawl_state',
+ 'LOG_FILE': 'cardbin_log4.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'cardbin.spiders',
+ 'SPIDER_MODULES': ['cardbin.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+2025-09-10 17:14:08 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-09-10 17:14:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-09-10 17:14:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-09-10 17:14:09 [scrapy.middleware] INFO: Enabled item pipelines:
+['cardbin.pipelines.SqlitePipeline']
+2025-09-10 17:14:09 [scrapy.core.engine] INFO: Spider opened
+2025-09-10 17:14:09 [py.warnings] WARNING: F:\Code\Dependent\python\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: cardbin.spiders.CardbinSpider.CardbinSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-09-10 17:14:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-09-10 17:14:09 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-09-10 17:14:09 [scrapy-playwright] INFO: Starting download handler
+2025-09-10 17:14:09 [scrapy-playwright] INFO: Starting download handler
+2025-09-10 17:14:09 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/vietnam
+2025-09-10 17:14:09 [scrapy-playwright] INFO: Launching browser chromium
+2025-09-10 17:14:09 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/kuwait
+2025-09-10 17:14:09 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/jamaica
+2025-09-10 17:14:09 [cardbin] INFO: 开始爬取列表页: https://bincheck.org/antigua-and-barbuda
+2025-09-10 17:14:10 [scrapy-playwright] INFO: Browser chromium launched
+2025-09-10 17:14:12 [tldextract.cache] WARNING: unable to cache publicsuffix.org-tlds.{'urls': ('https://publicsuffix.org/list/public_suffix_list.dat', 'https://raw.githubusercontent.com/publicsuffix/list/master/public_suffix_list.dat'), 'fallback_to_snapshot': True} in F:\Code\Dependent\python\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json. This could refresh the Public Suffix List over HTTP every app startup. Construct your `TLDExtract` with a writable `cache_dir` or set `cache_dir=None` to silence this warning. [WinError 5] 拒绝访问。: 'F:\\Code\\Dependent\\python\\Lib\\site-packages\\tldextract\\.suffix_cache'
+2025-09-10 17:14:12 [cardbin] INFO: 正在解析列表页: https://bincheck.org/vietnam
+2025-09-10 17:14:12 [cardbin] WARNING: https://bincheck.org/vietnam 未找到下一页链接
+2025-09-10 17:14:18 [cardbin] INFO: 正在解析列表页: https://bincheck.org/kuwait
+2025-09-10 17:14:18 [cardbin] INFO: 发现下一页列表: https://bincheck.org/kuwait?page=2
+2025-09-10 17:14:24 [cardbin] INFO: 正在解析列表页: https://bincheck.org/jamaica
+2025-09-10 17:14:24 [cardbin] WARNING: https://bincheck.org/jamaica 未找到下一页链接
+2025-09-10 17:14:27 [cardbin] INFO: 正在解析列表页: https://bincheck.org/antigua-and-barbuda
+2025-09-10 17:14:27 [cardbin] INFO: 发现下一页列表: https://bincheck.org/antigua-and-barbuda?page=2
+2025-09-10 17:14:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550017
+2025-09-10 17:14:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406242
+2025-09-10 17:14:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476636
+2025-09-10 17:14:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/470970
+2025-09-10 17:14:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469374
+2025-09-10 17:15:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426926
+2025-09-10 17:15:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404169
+2025-09-10 17:15:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548370
+2025-09-10 17:15:09 [scrapy.extensions.logstats] INFO: Crawled 12 pages (at 12 pages/min), scraped 8 items (at 8 items/min)
+2025-09-10 17:15:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/459805
+2025-09-10 17:15:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/429389
+2025-09-10 17:15:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426088
+2025-09-10 17:15:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436309
+2025-09-10 17:15:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512341
+2025-09-10 17:15:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476632
+2025-09-10 17:15:41 [cardbin] INFO: 正在解析列表页: https://bincheck.org/kuwait?page=2
+2025-09-10 17:15:41 [cardbin] INFO: https://bincheck.org/kuwait?page=2 是最后一页，无下一页
+2025-09-10 17:15:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455162
+2025-09-10 17:15:52 [cardbin] INFO: 正在解析列表页: https://bincheck.org/antigua-and-barbuda?page=2
+2025-09-10 17:15:52 [cardbin] INFO: https://bincheck.org/antigua-and-barbuda?page=2 是最后一页，无下一页
+2025-09-10 17:15:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430459
+2025-09-10 17:15:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518851
+2025-09-10 17:16:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/434781
+2025-09-10 17:16:09 [scrapy.extensions.logstats] INFO: Crawled 24 pages (at 12 pages/min), scraped 18 items (at 10 items/min)
+2025-09-10 17:16:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421397
+2025-09-10 17:16:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405986
+2025-09-10 17:16:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547090
+2025-09-10 17:16:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/483014
+2025-09-10 17:16:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/515897
+2025-09-10 17:16:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448709
+2025-09-10 17:16:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493180
+2025-09-10 17:16:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419541
+2025-09-10 17:16:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/515821
+2025-09-10 17:16:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516507
+2025-09-10 17:16:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/554858
+2025-09-10 17:17:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/527526
+2025-09-10 17:17:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548184
+2025-09-10 17:17:09 [scrapy.extensions.logstats] INFO: Crawled 37 pages (at 13 pages/min), scraped 31 items (at 13 items/min)
+2025-09-10 17:17:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419544
+2025-09-10 17:17:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455139
+2025-09-10 17:17:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421396
+2025-09-10 17:17:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/499975
+2025-09-10 17:17:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/525853
+2025-09-10 17:17:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404583
+2025-09-10 17:17:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519695
+2025-09-10 17:17:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419543
+2025-09-10 17:17:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404379
+2025-09-10 17:18:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491307
+2025-09-10 17:18:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406677
+2025-09-10 17:18:09 [scrapy.extensions.logstats] INFO: Crawled 48 pages (at 11 pages/min), scraped 42 items (at 11 items/min)
+2025-09-10 17:18:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419545
+2025-09-10 17:18:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472082
+2025-09-10 17:18:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/441726
+2025-09-10 17:18:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455135
+2025-09-10 17:18:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402354
+2025-09-10 17:18:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421694
+2025-09-10 17:18:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517836
+2025-09-10 17:18:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541318
+2025-09-10 17:18:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530502
+2025-09-10 17:18:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552272
+2025-09-10 17:19:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545408
+2025-09-10 17:19:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/423195
+2025-09-10 17:19:09 [scrapy.extensions.logstats] INFO: Crawled 60 pages (at 12 pages/min), scraped 54 items (at 12 items/min)
+2025-09-10 17:19:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458550
+2025-09-10 17:19:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/490456
+2025-09-10 17:19:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519130
+2025-09-10 17:19:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/556638
+2025-09-10 17:20:02 [scrapy-playwright] WARNING: Closing page due to failed request: <GET https://bincheck.org/544675> exc_type=<class 'playwright._impl._errors.TimeoutError'> exc_msg=Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/544675", waiting until "load"
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 433, in _download_request_with_retry
+    return await self._download_request_with_page(request, page, spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 462, in _download_request_with_page
+    response, download = await self._get_response_and_download(request, page, spider)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 564, in _get_response_and_download
+    response = await page.goto(url=request.url, **page_goto_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\async_api\_generated.py", line 8975, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_frame.py", line 146, in goto
+    await self._channel.send(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/544675", waiting until "load"
+
+2025-09-10 17:20:02 [cardbin] ERROR: 请求失败: https://bincheck.org/544675
+2025-09-10 17:20:02 [cardbin] ERROR: 错误原因: TimeoutError('Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "https://bincheck.org/544675", waiting until "load"\n')
+2025-09-10 17:20:07 [scrapy-playwright] WARNING: Closing page due to failed request: <GET https://bincheck.org/414603> exc_type=<class 'playwright._impl._errors.TimeoutError'> exc_msg=Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/414603", waiting until "load"
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 433, in _download_request_with_retry
+    return await self._download_request_with_page(request, page, spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 462, in _download_request_with_page
+    response, download = await self._get_response_and_download(request, page, spider)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 564, in _get_response_and_download
+    response = await page.goto(url=request.url, **page_goto_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\async_api\_generated.py", line 8975, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_frame.py", line 146, in goto
+    await self._channel.send(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/414603", waiting until "load"
+
+2025-09-10 17:20:07 [cardbin] ERROR: 请求失败: https://bincheck.org/414603
+2025-09-10 17:20:07 [cardbin] ERROR: 错误原因: TimeoutError('Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "https://bincheck.org/414603", waiting until "load"\n')
+2025-09-10 17:20:09 [scrapy.extensions.logstats] INFO: Crawled 64 pages (at 4 pages/min), scraped 58 items (at 4 items/min)
+2025-09-10 17:20:13 [scrapy-playwright] WARNING: Closing page due to failed request: <GET https://bincheck.org/548277> exc_type=<class 'playwright._impl._errors.TimeoutError'> exc_msg=Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/548277", waiting until "load"
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 433, in _download_request_with_retry
+    return await self._download_request_with_page(request, page, spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 462, in _download_request_with_page
+    response, download = await self._get_response_and_download(request, page, spider)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 564, in _get_response_and_download
+    response = await page.goto(url=request.url, **page_goto_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\async_api\_generated.py", line 8975, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_frame.py", line 146, in goto
+    await self._channel.send(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/548277", waiting until "load"
+
+2025-09-10 17:20:13 [cardbin] ERROR: 请求失败: https://bincheck.org/548277
+2025-09-10 17:20:13 [cardbin] ERROR: 错误原因: TimeoutError('Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "https://bincheck.org/548277", waiting until "load"\n')
+2025-09-10 17:20:17 [scrapy-playwright] WARNING: Closing page due to failed request: <GET https://bincheck.org/530348> exc_type=<class 'playwright._impl._errors.TimeoutError'> exc_msg=Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/530348", waiting until "load"
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 433, in _download_request_with_retry
+    return await self._download_request_with_page(request, page, spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 462, in _download_request_with_page
+    response, download = await self._get_response_and_download(request, page, spider)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 564, in _get_response_and_download
+    response = await page.goto(url=request.url, **page_goto_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\async_api\_generated.py", line 8975, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_frame.py", line 146, in goto
+    await self._channel.send(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/530348", waiting until "load"
+
+2025-09-10 17:20:17 [cardbin] ERROR: 请求失败: https://bincheck.org/530348
+2025-09-10 17:20:17 [cardbin] ERROR: 错误原因: TimeoutError('Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "https://bincheck.org/530348", waiting until "load"\n')
+2025-09-10 17:20:21 [scrapy-playwright] WARNING: Closing page due to failed request: <GET https://bincheck.org/491785> exc_type=<class 'playwright._impl._errors.TimeoutError'> exc_msg=Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/491785", waiting until "load"
+Traceback (most recent call last):
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 433, in _download_request_with_retry
+    return await self._download_request_with_page(request, page, spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 462, in _download_request_with_page
+    response, download = await self._get_response_and_download(request, page, spider)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\scrapy_playwright\handler.py", line 564, in _get_response_and_download
+    response = await page.goto(url=request.url, **page_goto_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\async_api\_generated.py", line 8975, in goto
+    await self._impl_obj.goto(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_frame.py", line 146, in goto
+    await self._channel.send(
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Smart\AppData\Roaming\Python\Python312\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://bincheck.org/491785", waiting until "load"
+
+2025-09-10 17:20:21 [cardbin] ERROR: 请求失败: https://bincheck.org/491785
+2025-09-10 17:20:21 [cardbin] ERROR: 错误原因: TimeoutError('Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "https://bincheck.org/491785", waiting until "load"\n')
+2025-09-10 17:20:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545424
+2025-09-10 17:20:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430280
+2025-09-10 17:20:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518549
+2025-09-10 17:20:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552078
+2025-09-10 17:20:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552277
+2025-09-10 17:20:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479066
+2025-09-10 17:20:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458583
+2025-09-10 17:20:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418056
+2025-09-10 17:20:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/435798
+2025-09-10 17:21:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415899
+2025-09-10 17:21:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/468502
+2025-09-10 17:21:09 [scrapy.extensions.logstats] INFO: Crawled 75 pages (at 11 pages/min), scraped 69 items (at 11 items/min)
+2025-09-10 17:21:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/558883
+2025-09-10 17:21:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542857
+2025-09-10 17:21:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/485441
+2025-09-10 17:21:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455018
+2025-09-10 17:21:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/529567
+2025-09-10 17:21:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/438912
+2025-09-10 17:21:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532672
+2025-09-10 17:21:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559320
+2025-09-10 17:21:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473834
+2025-09-10 17:21:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455049
+2025-09-10 17:22:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/435799
+2025-09-10 17:22:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/535966
+2025-09-10 17:22:09 [scrapy.extensions.logstats] INFO: Crawled 87 pages (at 12 pages/min), scraped 81 items (at 12 items/min)
+2025-09-10 17:22:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/468564
+2025-09-10 17:22:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/416835
+2025-09-10 17:22:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532341
+2025-09-10 17:22:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544239
+2025-09-10 17:22:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428628
+2025-09-10 17:22:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542859
+2025-09-10 17:22:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455014
+2025-09-10 17:22:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448329
+2025-09-10 17:22:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479098
+2025-09-10 17:22:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540759
+2025-09-10 17:23:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548183
+2025-09-10 17:23:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532675
+2025-09-10 17:23:09 [scrapy.extensions.logstats] INFO: Crawled 99 pages (at 12 pages/min), scraped 93 items (at 12 items/min)
+2025-09-10 17:23:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457444
+2025-09-10 17:23:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541312
+2025-09-10 17:23:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428654
+2025-09-10 17:23:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457445
+2025-09-10 17:23:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552007
+2025-09-10 17:23:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541855
+2025-09-10 17:23:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/400601
+2025-09-10 17:23:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552050
+2025-09-10 17:23:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530501
+2025-09-10 17:23:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544622
+2025-09-10 17:23:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517735
+2025-09-10 17:24:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544621
+2025-09-10 17:24:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532674
+2025-09-10 17:24:09 [scrapy.extensions.logstats] INFO: Crawled 112 pages (at 13 pages/min), scraped 106 items (at 13 items/min)
+2025-09-10 17:24:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/440711
+2025-09-10 17:24:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428926
+2025-09-10 17:24:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455015
+2025-09-10 17:24:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/537016
+2025-09-10 17:24:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544623
+2025-09-10 17:24:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540281
+2025-09-10 17:24:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450902
+2025-09-10 17:24:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544240
+2025-09-10 17:24:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457775
+2025-09-10 17:24:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479045
+2025-09-10 17:24:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/429790
+2025-09-10 17:25:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559307
+2025-09-10 17:25:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476335
+2025-09-10 17:25:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/401319
+2025-09-10 17:25:09 [scrapy.extensions.logstats] INFO: Crawled 126 pages (at 14 pages/min), scraped 120 items (at 14 items/min)
+2025-09-10 17:25:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426669
+2025-09-10 17:25:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419251
+2025-09-10 17:25:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456776
+2025-09-10 17:25:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422431
+2025-09-10 17:25:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479065
+2025-09-10 17:25:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/470350
+2025-09-10 17:25:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533746
+2025-09-10 17:25:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/431210
+2025-09-10 17:25:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417768
+2025-09-10 17:25:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559459
+2025-09-10 17:25:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540261
+2025-09-10 17:26:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455048
+2025-09-10 17:26:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544290
+2025-09-10 17:26:09 [scrapy.extensions.logstats] INFO: Crawled 139 pages (at 13 pages/min), scraped 133 items (at 13 items/min)
+2025-09-10 17:26:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/552299
+2025-09-10 17:26:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547045
+2025-09-10 17:26:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464462
+2025-09-10 17:26:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541313
+2025-09-10 17:26:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/541107
+2025-09-10 17:26:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455057
+2025-09-10 17:26:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/475189
+2025-09-10 17:26:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419252
+2025-09-10 17:26:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450777
+2025-09-10 17:26:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489932
+2025-09-10 17:26:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430950
+2025-09-10 17:27:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/485713
+2025-09-10 17:27:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/378680
+2025-09-10 17:27:09 [scrapy.extensions.logstats] INFO: Crawled 152 pages (at 13 pages/min), scraped 146 items (at 13 items/min)
+2025-09-10 17:27:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516503
+2025-09-10 17:27:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472081
+2025-09-10 17:27:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479431
+2025-09-10 17:27:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403755
+2025-09-10 17:27:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/443930
+2025-09-10 17:27:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473175
+2025-09-10 17:27:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524974
+2025-09-10 17:27:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/515896
+2025-09-10 17:27:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/496038
+2025-09-10 17:27:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522904
+2025-09-10 17:27:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/439275
+2025-09-10 17:28:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409324
+2025-09-10 17:28:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484641
+2025-09-10 17:28:09 [scrapy.extensions.logstats] INFO: Crawled 165 pages (at 13 pages/min), scraped 159 items (at 13 items/min)
+2025-09-10 17:28:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/414457
+2025-09-10 17:28:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517184
+2025-09-10 17:28:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493184
+2025-09-10 17:28:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/547644
+2025-09-10 17:28:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491097
+2025-09-10 17:28:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519769
+2025-09-10 17:28:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/484640
+2025-09-10 17:28:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/433116
+2025-09-10 17:28:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545273
+2025-09-10 17:28:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545368
+2025-09-10 17:29:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455136
+2025-09-10 17:29:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/498488
+2025-09-10 17:29:09 [scrapy.extensions.logstats] INFO: Crawled 177 pages (at 12 pages/min), scraped 171 items (at 12 items/min)
+2025-09-10 17:29:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473128
+2025-09-10 17:29:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469254
+2025-09-10 17:29:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422107
+2025-09-10 17:29:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/496037
+2025-09-10 17:29:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473282
+2025-09-10 17:29:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425903
+2025-09-10 17:29:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519291
+2025-09-10 17:29:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/534319
+2025-09-10 17:29:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532132
+2025-09-10 17:29:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455137
+2025-09-10 17:29:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458165
+2025-09-10 17:30:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473256
+2025-09-10 17:30:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/442302
+2025-09-10 17:30:09 [scrapy.extensions.logstats] INFO: Crawled 190 pages (at 13 pages/min), scraped 184 items (at 13 items/min)
+2025-09-10 17:30:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455138
+2025-09-10 17:30:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/536559
+2025-09-10 17:30:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530536
+2025-09-10 17:30:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519879
+2025-09-10 17:30:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491620
+2025-09-10 17:30:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421359
+2025-09-10 17:30:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472080
+2025-09-10 17:30:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448713
+2025-09-10 17:30:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/544193
+2025-09-10 17:30:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430927
+2025-09-10 17:31:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476214
+2025-09-10 17:31:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491619
+2025-09-10 17:31:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404584
+2025-09-10 17:31:09 [scrapy.extensions.logstats] INFO: Crawled 203 pages (at 13 pages/min), scraped 197 items (at 13 items/min)
+2025-09-10 17:31:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422106
+2025-09-10 17:31:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491621
+2025-09-10 17:31:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421655
+2025-09-10 17:31:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/550051
+2025-09-10 17:31:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512382
+2025-09-10 17:31:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451351
+2025-09-10 17:31:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422177
+2025-09-10 17:31:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469255
+2025-09-10 17:31:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530707
+2025-09-10 17:31:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/499993
+2025-09-10 17:32:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430319
+2025-09-10 17:32:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448787
+2025-09-10 17:32:09 [scrapy.extensions.logstats] INFO: Crawled 215 pages (at 12 pages/min), scraped 209 items (at 12 items/min)
+2025-09-10 17:32:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418206
+2025-09-10 17:32:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/543490
+2025-09-10 17:32:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479309
+2025-09-10 17:32:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421656
+2025-09-10 17:32:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/443981
+2025-09-10 17:32:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473174
+2025-09-10 17:32:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/434603
+2025-09-10 17:32:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473126
+2025-09-10 17:32:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421358
+2025-09-10 17:33:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421398
+2025-09-10 17:33:09 [scrapy.extensions.logstats] INFO: Crawled 225 pages (at 10 pages/min), scraped 219 items (at 10 items/min)
+2025-09-10 17:33:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/491064
+2025-09-10 17:33:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472083
+2025-09-10 17:33:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473173
+2025-09-10 17:33:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/496039
+2025-09-10 17:33:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/542060
+2025-09-10 17:33:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524944
+2025-09-10 17:33:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/473127
+2025-09-10 17:33:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451881
+2025-09-10 17:33:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/499906
+2025-09-10 17:33:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457071
+2025-09-10 17:33:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/454604
+2025-09-10 17:34:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546008
+2025-09-10 17:34:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417977
+2025-09-10 17:34:09 [scrapy.extensions.logstats] INFO: Crawled 238 pages (at 13 pages/min), scraped 232 items (at 13 items/min)
+2025-09-10 17:34:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430951
+2025-09-10 17:34:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/417975
+2025-09-10 17:34:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/451483
+2025-09-10 17:34:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/540179
+2025-09-10 17:34:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430390
+2025-09-10 17:34:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/459071
+2025-09-10 17:34:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/407344
+2025-09-10 17:34:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533209
+2025-09-10 17:34:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469757
+2025-09-10 17:34:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448794
+2025-09-10 17:34:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469273
+2025-09-10 17:35:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430196
+2025-09-10 17:35:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/453849
+2025-09-10 17:35:09 [scrapy.extensions.logstats] INFO: Crawled 251 pages (at 13 pages/min), scraped 245 items (at 13 items/min)
+2025-09-10 17:35:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472229
+2025-09-10 17:35:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479470
+2025-09-10 17:35:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/434771
+2025-09-10 17:35:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/499953
+2025-09-10 17:35:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/448793
+2025-09-10 17:35:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/474490
+2025-09-10 17:35:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469272
+2025-09-10 17:35:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455243
+2025-09-10 17:35:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479471
+2025-09-10 17:35:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455970
+2025-09-10 17:36:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/496614
+2025-09-10 17:36:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531611
+2025-09-10 17:36:09 [scrapy.extensions.logstats] INFO: Crawled 263 pages (at 12 pages/min), scraped 257 items (at 12 items/min)
+2025-09-10 17:36:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403068
+2025-09-10 17:36:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528540
+2025-09-10 17:36:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532337
+2025-09-10 17:36:26 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458840
+2025-09-10 17:36:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455067
+2025-09-10 17:36:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409055
+2025-09-10 17:36:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419249
+2025-09-10 17:36:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/443968
+2025-09-10 17:36:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457442
+2025-09-10 17:36:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526450
+2025-09-10 17:37:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521099
+2025-09-10 17:37:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426058
+2025-09-10 17:37:09 [scrapy.extensions.logstats] INFO: Crawled 275 pages (at 12 pages/min), scraped 269 items (at 12 items/min)
+2025-09-10 17:37:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458248
+2025-09-10 17:37:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/438123
+2025-09-10 17:37:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533757
+2025-09-10 17:37:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516678
+2025-09-10 17:37:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/419250
+2025-09-10 17:37:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415254
+2025-09-10 17:37:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/471457
+2025-09-10 17:37:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516457
+2025-09-10 17:37:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422113
+2025-09-10 17:37:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531726
+2025-09-10 17:38:09 [scrapy.extensions.logstats] INFO: Crawled 285 pages (at 10 pages/min), scraped 279 items (at 10 items/min)
+2025-09-10 17:38:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458247
+2025-09-10 17:38:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532335
+2025-09-10 17:38:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/445994
+2025-09-10 17:38:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457443
+2025-09-10 17:38:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/423826
+2025-09-10 17:38:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458770
+2025-09-10 17:38:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458771
+2025-09-10 17:38:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/425873
+2025-09-10 17:38:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516334
+2025-09-10 17:38:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532493
+2025-09-10 17:38:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/489015
+2025-09-10 17:38:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421107
+2025-09-10 17:39:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/516353
+2025-09-10 17:39:09 [scrapy.extensions.logstats] INFO: Crawled 298 pages (at 13 pages/min), scraped 292 items (at 13 items/min)
+2025-09-10 17:39:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458839
+2025-09-10 17:39:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/480944
+2025-09-10 17:39:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528803
+2025-09-10 17:39:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458246
+2025-09-10 17:39:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/426083
+2025-09-10 17:39:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458205
+2025-09-10 17:39:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457777
+2025-09-10 17:39:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472334
+2025-09-10 17:39:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/519859
+2025-09-10 17:39:52 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456031
+2025-09-10 17:39:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/432423
+2025-09-10 17:40:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/424677
+2025-09-10 17:40:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456777
+2025-09-10 17:40:09 [scrapy.extensions.logstats] INFO: Crawled 311 pages (at 13 pages/min), scraped 305 items (at 13 items/min)
+2025-09-10 17:40:11 [cardbin] INFO: 正在解析详情页: https://bincheck.org/409054
+2025-09-10 17:40:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517957
+2025-09-10 17:40:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455068
+2025-09-10 17:40:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/455016
+2025-09-10 17:40:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/464452
+2025-09-10 17:40:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457778
+2025-09-10 17:40:37 [cardbin] INFO: 正在解析详情页: https://bincheck.org/443967
+2025-09-10 17:40:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458838
+2025-09-10 17:40:47 [cardbin] INFO: 正在解析详情页: https://bincheck.org/403067
+2025-09-10 17:40:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524190
+2025-09-10 17:40:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/402978
+2025-09-10 17:40:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524158
+2025-09-10 17:41:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528006
+2025-09-10 17:41:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/431475
+2025-09-10 17:41:09 [scrapy.extensions.logstats] INFO: Crawled 325 pages (at 14 pages/min), scraped 319 items (at 14 items/min)
+2025-09-10 17:41:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/431270
+2025-09-10 17:41:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532749
+2025-09-10 17:41:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458843
+2025-09-10 17:41:25 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458232
+2025-09-10 17:41:30 [cardbin] INFO: 正在解析详情页: https://bincheck.org/438124
+2025-09-10 17:41:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/424337
+2025-09-10 17:41:42 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532339
+2025-09-10 17:41:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457776
+2025-09-10 17:41:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/518521
+2025-09-10 17:41:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/527525
+2025-09-10 17:42:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524221
+2025-09-10 17:42:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521371
+2025-09-10 17:42:09 [scrapy.extensions.logstats] INFO: Crawled 337 pages (at 12 pages/min), scraped 331 items (at 12 items/min)
+2025-09-10 17:42:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/466719
+2025-09-10 17:42:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/524114
+2025-09-10 17:42:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406430
+2025-09-10 17:42:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522864
+2025-09-10 17:42:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422056
+2025-09-10 17:42:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404919
+2025-09-10 17:42:45 [cardbin] INFO: 正在解析详情页: https://bincheck.org/431927
+2025-09-10 17:42:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/456778
+2025-09-10 17:42:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/498495
+2025-09-10 17:42:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532422
+2025-09-10 17:43:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/414604
+2025-09-10 17:43:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522888
+2025-09-10 17:43:09 [scrapy.extensions.logstats] INFO: Crawled 349 pages (at 12 pages/min), scraped 343 items (at 12 items/min)
+2025-09-10 17:43:13 [cardbin] INFO: 正在解析详情页: https://bincheck.org/476099
+2025-09-10 17:43:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/522869
+2025-09-10 17:43:24 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422114
+2025-09-10 17:43:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/521175
+2025-09-10 17:43:35 [cardbin] INFO: 正在解析详情页: https://bincheck.org/430281
+2025-09-10 17:43:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531483
+2025-09-10 17:43:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458841
+2025-09-10 17:43:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458233
+2025-09-10 17:43:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/440625
+2025-09-10 17:43:57 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450778
+2025-09-10 17:44:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406966
+2025-09-10 17:44:07 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458815
+2025-09-10 17:44:09 [scrapy.extensions.logstats] INFO: Crawled 361 pages (at 12 pages/min), scraped 355 items (at 12 items/min)
+2025-09-10 17:44:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/490455
+2025-09-10 17:44:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436546
+2025-09-10 17:44:22 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436470
+2025-09-10 17:44:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559073
+2025-09-10 17:44:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/406598
+2025-09-10 17:44:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/459804
+2025-09-10 17:44:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/537158
+2025-09-10 17:44:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/415815
+2025-09-10 17:44:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437373
+2025-09-10 17:44:58 [cardbin] INFO: 正在解析详情页: https://bincheck.org/418248
+2025-09-10 17:45:02 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422076
+2025-09-10 17:45:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/517416
+2025-09-10 17:45:09 [scrapy.extensions.logstats] INFO: Crawled 373 pages (at 12 pages/min), scraped 367 items (at 12 items/min)
+2025-09-10 17:45:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421595
+2025-09-10 17:45:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422075
+2025-09-10 17:45:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457485
+2025-09-10 17:45:28 [cardbin] INFO: 正在解析详情页: https://bincheck.org/450798
+2025-09-10 17:45:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421193
+2025-09-10 17:45:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/466583
+2025-09-10 17:45:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/546734
+2025-09-10 17:45:48 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437423
+2025-09-10 17:45:53 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479138
+2025-09-10 17:45:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469677
+2025-09-10 17:45:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/459818
+2025-09-10 17:46:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/401520
+2025-09-10 17:46:09 [scrapy.extensions.logstats] INFO: Crawled 385 pages (at 12 pages/min), scraped 379 items (at 12 items/min)
+2025-09-10 17:46:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/429418
+2025-09-10 17:46:16 [cardbin] INFO: 正在解析详情页: https://bincheck.org/462842
+2025-09-10 17:46:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457353
+2025-09-10 17:46:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/486281
+2025-09-10 17:46:33 [cardbin] INFO: 正在解析详情页: https://bincheck.org/515110
+2025-09-10 17:46:38 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530572
+2025-09-10 17:46:43 [cardbin] INFO: 正在解析详情页: https://bincheck.org/479139
+2025-09-10 17:46:49 [cardbin] INFO: 正在解析详情页: https://bincheck.org/526418
+2025-09-10 17:46:54 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530515
+2025-09-10 17:47:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559312
+2025-09-10 17:47:04 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405573
+2025-09-10 17:47:09 [scrapy.extensions.logstats] INFO: Crawled 397 pages (at 12 pages/min), scraped 390 items (at 11 items/min)
+2025-09-10 17:47:09 [cardbin] INFO: 正在解析详情页: https://bincheck.org/466236
+2025-09-10 17:47:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404185
+2025-09-10 17:47:20 [cardbin] INFO: 正在解析详情页: https://bincheck.org/486863
+2025-09-10 17:47:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/493434
+2025-09-10 17:47:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437422
+2025-09-10 17:47:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512701
+2025-09-10 17:47:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528658
+2025-09-10 17:47:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/429683
+2025-09-10 17:47:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/512824
+2025-09-10 17:47:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/559270
+2025-09-10 17:48:00 [cardbin] INFO: 正在解析详情页: https://bincheck.org/422094
+2025-09-10 17:48:05 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436445
+2025-09-10 17:48:09 [scrapy.extensions.logstats] INFO: Crawled 408 pages (at 11 pages/min), scraped 402 items (at 12 items/min)
+2025-09-10 17:48:10 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436308
+2025-09-10 17:48:15 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532137
+2025-09-10 17:48:19 [cardbin] INFO: 正在解析详情页: https://bincheck.org/405514
+2025-09-10 17:48:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/437421
+2025-09-10 17:48:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/472674
+2025-09-10 17:48:32 [cardbin] INFO: 正在解析详情页: https://bincheck.org/442416
+2025-09-10 17:48:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436361
+2025-09-10 17:48:41 [cardbin] INFO: 正在解析详情页: https://bincheck.org/532153
+2025-09-10 17:48:46 [cardbin] INFO: 正在解析详情页: https://bincheck.org/457560
+2025-09-10 17:48:51 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428310
+2025-09-10 17:48:56 [cardbin] INFO: 正在解析详情页: https://bincheck.org/530581
+2025-09-10 17:48:59 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428695
+2025-09-10 17:49:03 [cardbin] INFO: 正在解析详情页: https://bincheck.org/466238
+2025-09-10 17:49:08 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520395
+2025-09-10 17:49:09 [scrapy.extensions.logstats] INFO: Crawled 422 pages (at 14 pages/min), scraped 416 items (at 14 items/min)
+2025-09-10 17:49:14 [cardbin] INFO: 正在解析详情页: https://bincheck.org/486279
+2025-09-10 17:49:18 [cardbin] INFO: 正在解析详情页: https://bincheck.org/545968
+2025-09-10 17:49:23 [cardbin] INFO: 正在解析详情页: https://bincheck.org/404152
+2025-09-10 17:49:29 [cardbin] INFO: 正在解析详情页: https://bincheck.org/471249
+2025-09-10 17:49:34 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469671
+2025-09-10 17:49:39 [cardbin] INFO: 正在解析详情页: https://bincheck.org/458584
+2025-09-10 17:49:44 [cardbin] INFO: 正在解析详情页: https://bincheck.org/548566
+2025-09-10 17:49:50 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528643
+2025-09-10 17:49:55 [cardbin] INFO: 正在解析详情页: https://bincheck.org/436438
+2025-09-10 17:50:01 [cardbin] INFO: 正在解析详情页: https://bincheck.org/428477
+2025-09-10 17:50:06 [cardbin] INFO: 正在解析详情页: https://bincheck.org/531828
+2025-09-10 17:50:09 [scrapy.extensions.logstats] INFO: Crawled 433 pages (at 11 pages/min), scraped 427 items (at 11 items/min)
+2025-09-10 17:50:12 [cardbin] INFO: 正在解析详情页: https://bincheck.org/520399
+2025-09-10 17:50:17 [cardbin] INFO: 正在解析详情页: https://bincheck.org/469683
+2025-09-10 17:50:21 [cardbin] INFO: 正在解析详情页: https://bincheck.org/466582
+2025-09-10 17:50:27 [cardbin] INFO: 正在解析详情页: https://bincheck.org/421494
+2025-09-10 17:50:31 [cardbin] INFO: 正在解析详情页: https://bincheck.org/528626
+2025-09-10 17:50:36 [cardbin] INFO: 正在解析详情页: https://bincheck.org/533587
+2025-09-10 17:50:40 [cardbin] INFO: 正在解析详情页: https://bincheck.org/486280
+2025-09-10 17:50:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-09-10 17:50:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 5,
+ 'downloader/exception_type_count/playwright._impl._errors.TimeoutError': 5,
+ 'downloader/request_bytes': 289059,
+ 'downloader/request_count': 445,
+ 'downloader/request_method_count/GET': 445,
+ 'downloader/response_bytes': 45273278,
+ 'downloader/response_count': 440,
+ 'downloader/response_status_count/200': 440,
+ 'elapsed_time_seconds': 2191.121654,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 9, 10, 9, 50, 40, 513679, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 434,
+ 'items_per_minute': 11.884984025559106,
+ 'log_count/ERROR': 10,
+ 'log_count/INFO': 499,
+ 'log_count/WARNING': 9,
+ 'playwright/browser_count': 1,
+ 'playwright/context_count': 1,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 1,
+ 'playwright/context_count/remote/False': 1,
+ 'playwright/page_count': 445,
+ 'playwright/page_count/closed': 445,
+ 'playwright/page_count/max_concurrent': 7,
+ 'playwright/request_count': 3991,
+ 'playwright/request_count/method/GET': 3991,
+ 'playwright/request_count/navigation': 445,
+ 'playwright/request_count/resource_type/document': 445,
+ 'playwright/request_count/resource_type/image': 1329,
+ 'playwright/request_count/resource_type/script': 2217,
+ 'playwright/response_count': 1774,
+ 'playwright/response_count/method/GET': 1774,
+ 'playwright/response_count/resource_type/document': 445,
+ 'playwright/response_count/resource_type/image': 1329,
+ 'request_depth_max': 2,
+ 'response_received_count': 440,
+ 'responses_per_minute': 12.049292560474669,
+ 'scheduler/dequeued': 445,
+ 'scheduler/dequeued/disk': 445,
+ 'scheduler/enqueued': 445,
+ 'scheduler/enqueued/disk': 445,
+ 'start_time': datetime.datetime(2025, 9, 10, 9, 14, 9, 392025, tzinfo=datetime.timezone.utc)}
+2025-09-10 17:50:40 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-09-10 17:50:40 [scrapy-playwright] INFO: Closing download handler
+2025-09-10 17:50:40 [scrapy-playwright] INFO: Closing download handler
+2025-09-10 17:50:40 [scrapy-playwright] INFO: Closing browser
